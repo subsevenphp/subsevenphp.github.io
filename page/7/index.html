@@ -1,907 +1,1012 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="utf-8" />
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+    
+
+    
+    <title>Hexo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/page/7/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
+    
+
+    
+        <link rel="alternate" href="/" title="Hexo" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
 <link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
 
 <meta name="generator" content="Hexo 5.1.1"></head>
 
 <body>
-  <div id="container">
     <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Admission/">Admission</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Biology/">Biology</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Business/">Business</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chinese/">Chinese</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/English/">English</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Maths/">Maths</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Others/">Others</a></li></ul>
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-2019/10/05/IB-English-HL-Article-Recommended-191005" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.641Z" itemprop="datePublished">2020-09-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
     
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/">IB English HL —— Article recommended — Eating disorders and Gender (191005）</a>
+    <em class="page-title-link" data-url="home">Home</em>
     </h1>
-  
+</div>
 
-      </header>
+                        <div class="main-body-content">
+                            
+
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><h3 id="Article-recommended"><a href="#Article-recommended" class="headerlink" title="Article recommended"></a>Article recommended</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg"></p>
-<p><strong>Articles with the same topic but the different start</strong></p>
-<p><strong>Article 1</strong> （最随和型）</p>
-<p>Quoted from <a target="_blank" rel="noopener" href="https://www.healthline.com/health/eating-disorder-gender-stereotypes#1">https://www.healthline.com/health/eating-disorder-gender-stereotypes#1</a></p>
-<blockquote>
-<p>Illustration by Ruth Basagoitia<br>When a relative of mine developed an eating disorder, it blew past the radar of everyone who cared about him.</p>
-</blockquote>
-<blockquote>
-<p>“He’s just a picky eater,” they explained. “It’s a diet,” they brushed off. “He has a weird relationship with food, but it’s nothing to be worried about,” they declared. The implication always hidden that if he were a girl, there’d be reason for concern.</p>
-</blockquote>
-<blockquote>
-<p>But why stress over him? Boys don’t get eating disorders, the thinking went. He’ll eventually grow out of this phase</p>
-</blockquote>
-<p>……</p>
-<blockquote>
-<p>The assumption that eating disorders are predicated on womanhood — and a very particular cisheteronormative standard of womanhood at that — is harmful to people who are suffering and fall outside of that stereotype.</p>
-</blockquote>
-<p><strong>Article 2</strong> </p>
-<p>Quoted from <a target="_blank" rel="noopener" href="https://casapalmera.com/blog/manorexia-men-with-eating-disorders-on-the-rise">https://casapalmera.com/blog/manorexia-men-with-eating-disorders-on-the-rise</a></p>
-<blockquote>
-<p>When we think about eating disorders we rarely picture men starving or purging themselves to be thin, but a 2007 Harvard University study revealed that men account for 25 percent of people suffering from anorexia or bulimia. That’s more than double the previously reported statistic of 1 in 10, proving that manorexia, or men with eating disorders, is on the rise and much more common than most people think.</p>
-</blockquote>
-<blockquote>
-<p>Why the huge increase?<br>……</p>
-</blockquote>
-<p><strong>Article 3</strong> (最学术型）</p>
-<p>Quoted from <a target="_blank" rel="noopener" href="https://www.scienceofeds.org/2012/07/03/eating-disorders-men-women-differ/">https://www.scienceofeds.org/2012/07/03/eating-disorders-men-women-differ/</a></p>
-<blockquote>
-<p>Given that eating disorders disproportionately affect women, it is not unreasonable to assume that men differ from women in clinical presentation, personality and psychological characteristics. My guess would be that they differ. My reasoning is this: males and females grow up facing different pressures and expectations. Given that, I’d think there would be (perhaps only slightly) different risk factors that predispose men and women to develop eating disorders. Thus, I’d think that different groups of men and women (i.e. with different personality characteristics, psychiatric comorbidities, and life experiences) would be susceptible to EDs. (Hopefully that makes sense.) To answer that question, Dr. D. Blake Woodside and colleagues compared men with eating disorders vs. women with eating disorders vs. men without eating disorders.</p>
-</blockquote>
-<blockquote>
-<p>Why are females much more likely to suffer from eating disorders than males? It appears that (at least) two arguments have been put forth:<br>……</p>
-</blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/" data-id="ckf5j1zz80007dxw25n895eot" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+    
+        
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg)" alt="IB English HL —— Article recommended — Eating disorders and Gender (191005）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/10/17/IB-English- HL-Article-Recommended-20191017" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.638Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/">IB English HL — YALSA&#39;s Teens&#39; Top Ten (191017）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.641Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><h3 id="Article-recommended"><a href="#Article-recommended" class="headerlink" title="Article recommended"></a>Article recommended</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg"></p>
-<h1 id="About-the-Teens’-Top-Ten-yalsaTTT"><a href="#About-the-Teens’-Top-Ten-yalsaTTT" class="headerlink" title="About the Teens’ Top Ten #yalsaTTT"></a>About the Teens’ Top Ten #yalsaTTT</h1><h2 id="NASA’s-New-Spacesuits-Unveiled-for-Trips-to-the-Moon-and-Beyond"><a href="#NASA’s-New-Spacesuits-Unveiled-for-Trips-to-the-Moon-and-Beyond" class="headerlink" title="NASA’s New Spacesuits Unveiled, for Trips to the Moon and Beyond"></a>NASA’s New Spacesuits Unveiled, for Trips to the Moon and Beyond</h2><blockquote>
-<p>The <strong>Teens’ Top Ten</strong> is a “teen choice” list, where teens nominate and choose their favorite books of the previous year! Nominators are members of teen book groups in fifteen school and public libraries around the country. Nominations are posted on the Thursday of National Library Week, and teens across the country vote on their favorite titles each year. Readers ages twelve to eighteen will vote online between August 15-October 12 here on the Teens’ Top Ten site. The winners will be announced the following week after.</p>
-</blockquote>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1571326120/English/teen_top_10_ufochr.jpg"></p>
-<p>2019 Teens’ Top Ten Official Nominees</p>
-<ul>
-<li>MurderTrending by Gretchen McNeil. Freeform Books/Disney Book Group. 9781368010023<ul>
-<li>An Absolutely Remarkable Thing by Hank Green. Dutton Books/Penguin Random House. 9780525641780</li>
-<li>Ace of Shades by Amanda Foody. Harlequin Teen/Harlequin Trade Publishing. 9781335692290</li>
-<li>American Panda by Gloria Chao. Simon Pulse/Simon &amp; Schuster. 9781481499101</li>
-<li>The Apocalypse of Elena Mendoza by Shaun David Hutchinson. Simon Pulse/Simon &amp; Schuster. 9781481498548</li>
-<li>Ash Princess by Laura Sebastian. Delacorte Press/Penguin Random House. 9781524767099</li>
-<li>Batman: Nightwalker by Marie Lu. Random House Children’s Books/Penguin Random House. 9780399549809</li>
-<li>The Belles by Dhonielle Clayton. Freeform Books/Disney Book Group. 9781484728499</li>
-<li>Blood Water Paint by Joy McCullough. Dutton Books/Penguin Random House. 9780735232112</li>
-<li>Children of Blood and Bone by Tomi Adeyemi. Henry Holt Books for Young Readers/Macmillan.9781250170972 </li>
-<li>The Cruel Prince by Holly Black. Little, Brown Books for Young Readers/Hatchett Book Group. 9780316310277</li>
-<li>Dance of Thieves by Mary E. Pearson. Henry Holt &amp; Co/Macmillian. 9781250159014</li>
-<li>Darius The Great Is Not Okay by Adib Khorram. Dial Books/Penguin Random House. 9780525552963</li>
-<li>Frat Girl by Kiley Roache. Harlequin Teen/Harlequin Trade Publishing. 9780373212347</li>
-<li>Girl Made of Stars by Ashley Herring Blake. HMH Books for Young Readers/Houghton Mifflin Harcourt. 9781328778239</li>
-<li>Isle of Blood and Stone by Makiia Lucier. HMH Books for Young Readers/Houghton Mifflin Harcourt. 9780544968578</li>
-<li>To Kill a Kingdom by Alexandra Christo. Feiwel &amp; Friends/Macmillan. 9781978650078</li>
-<li>Muse of Nightmares by Laini Taylor. Little, Brown Books for Young Readers/Hatchett Book Group. 9780316341714</li>
-<li>Picture Us in the Light by Kelly Loy Gilbert. Hyperion/Disney Book Group. 9781484726020</li>
-<li>The Poet X by Elizabeth Acevedo. HarperTeen/HarperCollins. 9780062662804</li>
-<li>The Prince and the Dressmaker by Jen Wang. First Second/Macmillian. 9781250159854</li>
-<li>Speak: The Graphic Novel by Laurie Halse Anderson, Emily Carroll. Farrar, Straus and Giroux/Macmillan. 9780374300289 </li>
-<li>Thunderhead by Neal Shusterman. Simon &amp; Schuster Books for Young Readers/ Simon &amp; Schuster. 9781978614306</li>
-<li>The Unwanted: Stories of the Syrian Refugees by Don Brown. HMH Books for Young Readers/Houghton Mifflin Harcourt. 9781328810151</li>
-<li>Wildcard by Marie Lu. G.P. Putnam’s Sons Books for Young Readers/Penguin Random House. 9780399547997</li>
-</ul>
-</li>
-</ul>
-<h2 id="Previous-Winners"><a href="#Previous-Winners" class="headerlink" title="Previous Winners"></a>Previous Winners</h2><p><strong>2018 Teens’ Top Ten</strong></p>
-<p><a target="_blank" rel="noopener" href="http://www.ala.org/yalsa/2018-teens-top-ten">http://www.ala.org/yalsa/2018-teens-top-ten</a></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/">IB English HL —— Article recommended — Eating disorders and Gender (191005）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HLArticle recommended
+Articles with the same topic but the different start
+Article 1 （最随和型）
+Quoted from https://www.healthline.com/health/eating-disorder-gender-stereotypes#1
+
+Illustration by 
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/" data-id="ckf5j1zzx001hdxw23yfwguu2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg)" alt="IB English HL — YALSA&#39;s Teens&#39; Top Ten (191017）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/10/10/IB-Admission-Essay-191010" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/10/10/IB-Admission-Essay-191010/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.634Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/10/10/IB-Admission-Essay-191010/">Check Out Niche.com (191010)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.638Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​<br>​</p>
-<h3 id="Admission"><a href="#Admission" class="headerlink" title="Admission"></a>Admission</h3><p>​</p>
-<h3 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h3><p>​<br><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg"><br>​<br>Quoted from <a target="_blank" rel="noopener" href="https://www.forbes.com/sites/willarddix/#370294455200">https://www.forbes.com/sites/willarddix/#370294455200</a></p>
-<h3 id="作者观点"><a href="#作者观点" class="headerlink" title="作者观点"></a>作者观点</h3><p>I’ve been an associate dean of admission at Amherst College and college counselor at a well-known Chicago private school. For 12 years, I helped underserved students……</p>
-<p>Call me perverse, but one of my favorite leisure activities is to perform dramatic readings of bad Yelp reviews. In general, the good ones are boring, pretentious and predictable; the bad ones are hilarious, idiosyncratic, usually brutally misspelled and more revealing of the writer than the restaurant or business being reviewed. Tolstoy’s maxim that “All happy families are alike; each unhappy family is unhappy in its own way” applies particularly well here. Once you’ve read one good review you’ve read them all, but the bad ones are delectable, each in its own right.</p>
-<p>Going through the college research process can seem like reading only positive Yelp reviews. After a few chirpy campus tours and admission officer presentations, you kind of get the picture that there’s no “typical” student at Old Main; the campus is a “designated arboretum;” students “work hard and play hard;” you can form your own club if there isn’t one already; professors give out their home phone numbers; and everyone is tolerant. It’s a dream world where you can spend time studying under the trees or lounge in your luxe, be-kitchened co-ed dorm making brownies for all-night study sessions.</p>
-<p>Reality, of course, generally presents itself quite differently. The website Niche.com focuses on helping people explore neighborhoods and schools (including K-12) where they might want to locate or relocate. It has a “Best Colleges in America” section you can check out with the usual grain or two of salt, but unlike the U.S. News rankings, it also has subsections including “Will You Get In?”, “After College” and, its Yelp-iest section, “Reviews.”</p>
-<p>That section features comments by self-identified students, alums and employees of the school in question. (Caution: I registered on the site and submitted a review of my alma mater to see if they’d ask for some verification of my status but they didn’t.) Following my Yelp habit, I breezed past the positive reviews and checked out the “poor” and “terrible” reviews to see what I could learn.</p>
-<p>As expected, students seemed most often disappointed in the athletics, food, social life, parking, weather and living conditions. Some were resigned to their fate, others were bitter about their choice. But as with Yelpers, comments usually revealed more about the writer than the institution. Some samples of one- and two-star comments with my comments in italics:</p>
-<p>​</p>
-<h3 id="引用Niche-com例子"><a href="#引用Niche-com例子" class="headerlink" title="引用Niche.com例子"></a>引用Niche.com例子</h3><blockquote>
-<p><strong>Pomona College (CA)</strong>: “Don’t Expect Much – Don’t expect to come to this school expecting to have a typical, blackout-filled college experience. While there are some groups of students who wish they went to a more fratty college, and act like it, this school has a pretty subdued nightlife.” — I’ve never realized that the typical college experience was “blackout-filled.”    </p>
-</blockquote>
-<blockquote>
-<p>“We are a Division III school, so our sports aren’t very good. Our most talented competitive organization is the Claremont Colleges Ballroom Dance Company, and our most talented sport is men’s water polo. Pomona is a college of brainiacs rather than jocks, though, and I don’t think many people actually care about our sports teams.” — This was a one-star review by someone who seems disappointed that a Division III college is a Division III college. It’s like the Yelp reviewer who complains that a BBQ restaurant has no vegetarian options. </p>
-</blockquote>
-<blockquote>
-<p><strong>Tulane University (LA):</strong> “Tulane’s core requirements waste too much time on arts and humanities and not enough of mathematics and sciences. There is no “Tulane culture” to speak of, in fact, the only thing that graduates might find unifying is waking up next to one another after a night of binge drinking; that is if they hadn’t been mugged on the way to their dorms.” — This from a junior who’s clearly more focused on getting through college than enjoying it and who doesn’t have a very good opinion of New Orleans.         </p>
-</blockquote>
-<blockquote>
-<p>“Lived in Monroe. Small, loud, stinky, old, absolutely disgusting. Over $7k to live in a double. Puke and urine all over everything. Used condoms on the floodlights. You name it. Super social and fun. But gets old FAST.” — I’d imagine so. </p>
-</blockquote>
-<blockquote>
-<p><strong>Carleton College (MN):</strong> “People are accepting but diversity is pretty limited. 10% international students means, what? 50 kids a year right. It’s Minnesota so white is to be expected, but pretty much everyone here is from the ‘burbs.’ Ethnic diversity is kind of sad but understandable. There are a lot of different political beliefs, but they aren’t explicit. Everyone here is accepted no matter who they are or where they come from, there’s pretty much a group on campus for everything, but that doesn’t stop diversity from being not great.” — So there’s a lot of difference, but not a lot of “difference.”</p>
-</blockquote>
-<blockquote>
-<p>“Over All [sic] Experience – So far I’m not having the best time here. The academics are great. But other than that the town is pretty boring, there isn’t great diversity, and you feel very isolated there’s definitely a “Carleton bubble”. This school probably isn’t for me.” — A freshman discovering why good research is important. </p>
-</blockquote>
-<blockquote>
-<p><strong>Yale University (CT):</strong> “The food quality claims to be wonderful, but the bread can be stale or even moldy. The food program is mandatory during some years, and it is always overpriced. There are no options outside of the dining hall system. Unlike some campuses, there are no alternative restaurants or food places where one might use meal points or card swipes. Definitely not worth the money or the hassle.” — Makes Yale sound absolutely Dickensian.</p>
-</blockquote>
-<blockquote>
-<p>“Distinctly Underwhelming – For all the fuss about the quality of Yale’s housing, I simply don’t rate it. Freshman dorms are universally mediocre to poor; expect to be sharing a bathroom with six or seven others, and expect outdated rooms that haven’t been refurbished in years…[T]here are far too many doubles throughout. Many justify the housing by saying that other places have it worse; I don’t doubt that, but that doesn’t make Yale’s facilities good. If Yale stopped pretending that its housing was fantastic, perhaps it could improve it. Living environment is integral to personal happiness, and for over $55,000 a year I simply expect better.” — A very disappointed freshman who clearly never had to share a room with a sibling while growing up. </p>
-</blockquote>
-<p>Unsurprisingly, each of these institutions has many times more “excellent/very good/average” reviews than “poor/terrible” ones. But reading the bad reviews should inspire high school students and parents to dig deeper into the issues they reveal. Take them with a healthy dose of skepticism; remember that a student who thinks the typical college experience is “blackout-filled” may not be the most reliable critic (remember The Girl on the Train?) and you may get some useful dimensionality to the all-too-sunny depictions of colleges in viewbooks, on websites and at presentations.</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/10/17/IB-English-%20HL-Article-Recommended-20191017/">IB English HL — YALSA&#39;s Teens&#39; Top Ten (191017）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HLArticle recommended
+About the Teens’ Top Ten #yalsaTTTNASA’s New Spacesuits Unveiled, for Trips to the Moon and Beyond
+The Teens’ Top Ten is a “teen choice” list, where teens nominate and ch
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/10/10/IB-Admission-Essay-191010/" data-id="ckf5j1zzj000wdxw2039c3b5k" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/10/10/IB-Admission-Essay-191010/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg)" alt="Check Out Niche.com (191010)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/10/10/IB-Admission-Essay-191010/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/11/06/IB-English- HL-Article-Recommended-20191106" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.628Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/">IB English HL — How to study with JSTOR Text Analyzer (191106）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.634Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><h3 id="Article-recommended"><a href="#Article-recommended" class="headerlink" title="Article recommended"></a>Article recommended</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg"></p>
-<h2 id="JSTOR-Text-Analyzer-provides-students-with-an-additional-resource-for-finding-scholarly-material"><a href="#JSTOR-Text-Analyzer-provides-students-with-an-additional-resource-for-finding-scholarly-material" class="headerlink" title="JSTOR Text Analyzer provides students with an additional resource for finding scholarly material"></a>JSTOR Text Analyzer provides students with an additional resource for finding scholarly material</h2><blockquote>
-<p>Quoted from <strong>Rachel Herrmann</strong>  April 25, 2019</p>
-</blockquote>
-<blockquote>
-<p>In teaching History in Practice, I’ve used JSTOR Text Analyzer, a research tool built by JSTOR Labs, to help students hone their researching and editing abilities. The easiest way to describe Text Analyzer is that it lets you upload files you’ve read or are working on, then uses the data in this file to provide additional reading recommendations.</p>
-</blockquote>
-<h2 id="Student-Assignments-Using-Text-Analyzers"><a href="#Student-Assignments-Using-Text-Analyzers" class="headerlink" title="Student Assignments Using Text Analyzers"></a>Student Assignments Using Text Analyzers</h2><p>Quoted fron one of teachers who plan and use JSTOR text analyzer</p>
-<p>There’s a seminar where students read the article that their seminar tutor assigns, and then participate in an in-class assignment I’ve designed called “The Wandering Essay” to work out the article’s argument. And there’s a seminar where students have to locate additional reading related to that first article, with an eye toward building a bibliography. And lastly there’s a seminar where students bring an essay outline and introduction to class and workshop it with their peers.</p>
-<p>That second seminar, where students have to locate an additional relevant reading, is where JSTOR Text Analyzer comes in. Library search catalogues can be difficult for first year students (and sometimes their seminar tutors) to navigate, and JSTOR Text Analyzer provides students with an additional resource for finding and thinking about scholarly material.<br>I set students up for this second seminar by giving a lecture about the department’s expectations for their essays—I discuss essay structure, writing, and editing suggestions, and the grading criteria we’ll use to assess them. I talk about reading footnotes to find related work. Then, I do a demonstration of how JSTOR Text Analyzer works. I upload the article that I teach to my seminar group, on cannibalism in colonial Jamestown. (N.B.: I conducted these searches while logged into my university’s library catalogue, so your results might look a little different.) Here’s what you get when you put my article through the Text Analyzer:</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1573055412/English/JSTOR_text_analyzer_ci0fin.jpg"></p>
-<p>As you can see, my article on cannibalism in colonial Virginia gets tagged with topics on food history, United States history, British literature, American literature, and human cannibalism. Students might increase the importance of topics on literature (and point out that I’ve read my sources more like a historian than a literary scholar). They might increase the importance of articles on cannibalism to explain how another scientist or historian has made an argument about cannibalism that differs significantly from mine.</p>
-<h2 id="Building-Syllabi-with-Text-Analyzer"><a href="#Building-Syllabi-with-Text-Analyzer" class="headerlink" title="Building Syllabi with Text Analyzer##"></a>Building Syllabi with Text Analyzer##</h2><p>As for the Text Analyzer’s usefulness for scholars, I have found it a helpful starting point in some of my own teaching and research. You can upload your syllabi onto the site and see what happens. I uploaded mine on Native American history. The Analyzer results mean that I can see many of the topics I assigned:</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1573055414/English/JSTOR_text_analyzer_2_mk5wb8.jpg"></p>
-<p>Because the Analyzer included all of my extra text about ways to succeed in the module, there’s a bit too much emphasis in the search results on finding sources. I can therefore increase the importance of prioritized terms:</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1573055413/English/JSTOR_text_analyzer_3_aabvn8.jpg"></p>
-<p>I can add my own terms, too. I think I’d like it even more if I could add in additional authors to address the Analyzer’s current omissions. In other words, this is a good place to start, but it’s not where I’d end if you’re trying to diversify your curriculum.</p>
-<h2 id="Is-JSTOR-Text-Analyzer-a-flawless-tool-No-But-it-offers-teachers-a-new-way-to-show-students-research-strategies-My-students-need-that-guidance-on-finding-appropriate-material-and-they-need-to-be-encouraged-to-find-that-material-early-on-in-the-semester-If-it-helps-them-to-begin-thinking-about-how-material-gets-digitized-catalogued-and-displayed-even-better"><a href="#Is-JSTOR-Text-Analyzer-a-flawless-tool-No-But-it-offers-teachers-a-new-way-to-show-students-research-strategies-My-students-need-that-guidance-on-finding-appropriate-material-and-they-need-to-be-encouraged-to-find-that-material-early-on-in-the-semester-If-it-helps-them-to-begin-thinking-about-how-material-gets-digitized-catalogued-and-displayed-even-better" class="headerlink" title="Is JSTOR Text Analyzer a flawless tool? No. But it offers teachers a new way to show students research strategies. My students need that guidance on finding appropriate material, and they need to be encouraged to find that material early on in the semester. If it helps them to begin thinking about how material gets digitized, catalogued, and displayed, even better."></a>Is JSTOR Text Analyzer a flawless tool? No. But it offers teachers a new way to show students research strategies. My students need that guidance on finding appropriate material, and they need to be encouraged to find that material early on in the semester. If it helps them to begin thinking about how material gets digitized, catalogued, and displayed, even better.</h2>
-      
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/10/10/IB-Admission-Essay-191010/">Check Out Niche.com (191010)</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            ​​
+Admission​
+Essay​​Quoted from https://www.forbes.com/sites/willarddix/#370294455200
+作者观点I’ve been an associate dean of admission at Amherst College and college counselor at a well-known Chicago pri
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/" data-id="ckf5j2002001rdxw27tno78ak" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569167363/%E8%8B%B1%E6%96%87%E7%AB%A0%E9%B1%BC.jpg)" alt="IB English HL — How to study with JSTOR Text Analyzer (191106）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/20/IB-Summer-School-Boston-University-190920" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.623Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/">2020 Summer Term ——  Boston University (190920)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.628Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="2020-Summer-Term"><a href="#2020-Summer-Term" class="headerlink" title="2020 Summer Term"></a>2020 Summer Term</h3><h3 id="Boston-University"><a href="#Boston-University" class="headerlink" title="Boston University"></a>Boston University</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568952654/Chemistry/521_nourfo.jpg"></p>
-<h3 id="Important-dates"><a href="#Important-dates" class="headerlink" title="Important dates"></a>Important dates</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951605/Chemistry/BU_2020_summer_u37l93.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951605/Chemistry/BU_2020_summer2_gakw5v.jpg"></p>
-<h3 id="Course-listings"><a href="#Course-listings" class="headerlink" title="Course listings"></a>Course listings</h3><h3 id="Example-1：-Biology"><a href="#Example-1：-Biology" class="headerlink" title="Example 1： Biology"></a>Example 1： Biology</h3><p>College of Arts &amp; Sciences</p>
-<p>Biology 1<br>CAS BI 107</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951604/Chemistry/BU_teacher1_zjihgp.jpg"></p>
-<p>For students who plan to major in the natural sciences or environmental science, and for premedical students. Required for biology majors. No prerequisite. High school biology is assumed. The evolution and diversity of life; principles of ecology; behavioral biology. Students must register for two sections: lecture and laboratory. Carries natural science divisional credit (with lab) in CAS. This course fulfills a single unit in each of the following BU Hub areas: Scientific Inquiry I, Quantitative Reasoning I, Critical Thinking, Research and Information Literacy. 4 cr.</p>
-<p>Note, <strong>the courses below were offered in Summer 2019. They are listed here to indicate what is usually offered in 2020 Summer Term</strong></p>
-<p>For more details, go for <a target="_blank" rel="noopener" href="http://www.bu.edu/summer/courses/biology/">http://www.bu.edu/summer/courses/biology/</a></p>
-<h3 id="Example-2：-Business-for-Non-majors"><a href="#Example-2：-Business-for-Non-majors" class="headerlink" title="Example 2： Business for Non-majors"></a>Example 2： Business for Non-majors</h3><p>Questrom School of Business<br>Introduction to Management<br>QST SM 101</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951605/Chemistry/BU_teacher2_ejagiy.jpg"></p>
-<p>A broad introduction to the nature and activities of business enterprises within the United States’ economic and political framework. Course content introduces economic systems, essential elements of business organization, production, human resource management, marketing, finance, and risk management. Key objectives of the course are development of business vocabulary and a fundamental understanding of how businesses make money. This course is intended for non-business majors. It may not be taken by Questrom students for credit nor can it be used by Boston University students toward the Business Administration minor. Non-Questrom students may register for this course directly via the Student Link. 4 cr.</p>
-<p>Note, <strong>the courses below were offered in Summer 2019. They are listed here to indicate what is usually offered in 2020 Summer Term</strong></p>
-<p>For more details, go for <a target="_blank" rel="noopener" href="http://www.bu.edu/summer/courses/business-non-majors/">http://www.bu.edu/summer/courses/business-non-majors/</a></p>
-<h3 id="Example-3：-Chemistry"><a href="#Example-3：-Chemistry" class="headerlink" title="Example 3： Chemistry"></a>Example 3： Chemistry</h3><p>General Chemistry 1<br>CAS CH 101<br><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951605/Chemistry/BU_teacher3_si3eyg.jpg"></p>
-<p>Prereq: two years of high school algebra. For science majors and minors who require a two-semester general chemistry course. Topics include atoms and molecules; molecular connectivity, infrared spectroscopy, and mass spectrometry; stoichiometry and introduction to reactions in aqueous solutions; thermochemistry and the first law of thermodynamics; quantum aspects of light and matter; and bonding in diatomic and polyatomic molecules. Laboratory exercises include the size of an atom, qualitative analysis, thermochemistry, and quantum aspects of light and matter. Students must register for three sections: lecture, discussion, and laboratory. Carries natural science divisional credit (with lab) in CAS. This course fulfills a single unit in each of the following BU Hub areas: Scientific Inquiry I, Quantitative Reasoning I. 4 cr</p>
-<p>Note, <strong>the courses below were offered in Summer 2019. They are listed here to indicate what is usually offered in 2020 Summer Term</strong></p>
-<p>For more details, go for <a target="_blank" rel="noopener" href="http://www.bu.edu/summer/courses/chemistry/">http://www.bu.edu/summer/courses/chemistry/</a></p>
-<table>
-<thead>
-<tr>
-<th>夏校（高中暑期学校项目）</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>学校</td>
-<td>时间</td>
-<td>课程</td>
-<td>住校</td>
-<td>托福分数</td>
-</tr>
-<tr>
-<td>Boston University</td>
-<td>May 20~ July 1 July 6 ~Aug 14</td>
-<td>Biology Business Chemistry</td>
-<td>？</td>
-<td>100？</td>
-</tr>
-</tbody></table>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/11/06/IB-English-%20HL-Article-Recommended-20191106/">IB English HL — How to study with JSTOR Text Analyzer (191106）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HLArticle recommended
+JSTOR Text Analyzer provides students with an additional resource for finding scholarly material
+Quoted from Rachel Herrmann  April 25, 2019
+
+
+In teaching History in Prac
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/" data-id="ckf5j2011003odxw2c3a53n4f" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1568952654/Chemistry/521_nourfo.jpg)" alt="2020 Summer Term ——  Boston University (190920)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.620Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/">IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (1/2）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.623Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Nuclear-Atom"><a href="#The-Nuclear-Atom" class="headerlink" title="The Nuclear Atom"></a>The Nuclear Atom</h3><h3 id="Questions"><a href="#Questions" class="headerlink" title="Questions"></a>Questions</h3><p>Quote from Oxford IB Chemistry Course Book (p. 65):</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-<p><strong>Q 1</strong></p>
-<p>What is the number of protons, electrons, and neutrons in boron-11?</p>
-<p>A. 5 protons, 5 electrons, and 11 neutrons</p>
-<p>B. 5 protons, 5 electrons, and 10.81 neutrons</p>
-<p><strong>C. 5 protons, 5 electrons, and 6 neutrons</strong></p>
-<p>D. 11 protons, 11 electrons, and 5 neutrons</p>
-<p><strong>A 1</strong></p>
-<p>C; boron-11 has an<strong>atomic number</strong> of 5; this represents <strong>the number of protons</strong> found in the nucleus; an atom of the element boron also has the same number of electrons;<strong>the relative atomic mass represents the number of protons and neutrons</strong>; taking the difference between the two numbers calculates the number of neutrons in the nucleus, 6;</p>
-<p><strong>Q 2</strong></p>
-<p>What is the number of protons, electrons, and neutrons in <img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951604/Chemistry/s34-16_qfb5we.jpg">?</p>
-<p>A. 18 protons, 16 electrons and 18 neutrons</p>
-<p>B. 16 protons, 18 electrons and 34 neutrons</p>
-<p><strong>C. 16 protons, 18 electrons and 18 neutrons</strong></p>
-<p>D. 16 protons, 16 electrons and 18 neutrons</p>
-<p><strong>A 2</strong></p>
-<p>C; an atom of sulfur-34 has 16 protons, 16 electrons and 18 neutrons; <strong>an ion of sulfur with a<br>2-charge has an additional 2 electrons</strong> for a total number of 18 electrons;</p>
-<p><strong>Q 3</strong></p>
-<p>Which statements about the isotopes of chlorine, <img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951609/Chemistry/CI35-17_byivhv.jpg"> and  <img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951604/Chemistry/CI37-17_hit8wh.jpg">, are correct?</p>
-<p>I. They have the same chemical properties.</p>
-<p>II. They have the same atomic number.</p>
-<p>III. They have the same physical properties.</p>
-<p><strong>A. I and II only</strong></p>
-<p>B. I and III only</p>
-<p>C. II and III only</p>
-<p>D. I, II and III</p>
-<p><strong>A 3</strong></p>
-<p>A; statement III is not correct; <strong>isotopes</strong> of the same element have the <strong>same chemical properties</strong> but exhibit <strong>different physical properties</strong> due to differences in their mass numbers;</p>
-<p><strong>Q 4</strong></p>
-<p>A sample of element X contains 69% of  <img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951603/Chemistry/63X_bdoodw.jpg"> and  <img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951604/Chemistry/65X_zyhcif.jpg">and  ![] . What is the relative atomic mass of X in this sample?</p>
-<p>A. 63.0</p>
-<p><strong>B. 63.6</strong></p>
-<p>C. 65.0</p>
-<p>D. 69.0</p>
-<p><strong>A 4</strong></p>
-<p>B; (0.69 × 63) + (0.31 × 65) = 63.6</p>
-<p><strong>Q 5</strong></p>
-<p>What is the relative atomic mass of an element with the mass spectrum shown in figure below?<br><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951604/Chemistry/calculate_relative_automic_mass_thabpq.jpg"></p>
-<p><strong>A. 24</strong></p>
-<p>B 25</p>
-<p>C. 26</p>
-<p>D. 27</p>
-<p><strong>A 5</strong></p>
-<p>A; (0.80 × 23) + (0.20 × 28) = 24</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/">2020 Summer Term ——  Boston University (190920)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            2020 Summer TermBoston University
+Important dates
+
+Course listingsExample 1： BiologyCollege of Arts &amp; Sciences
+Biology 1CAS BI 107
+
+For students who plan to major in the natural sciences or enviro
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/" data-id="ckf5j2010003mdxw2djs82pb2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (1/2）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.618Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/">IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (2/2）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.620Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Nuclear-Atom"><a href="#The-Nuclear-Atom" class="headerlink" title="The Nuclear Atom"></a>The Nuclear Atom</h3><h3 id="Questions"><a href="#Questions" class="headerlink" title="Questions"></a>Questions</h3><p>Quote from Oxford IB Chemistry Course Book (p. 65):</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-<p><strong>Q 6</strong></p>
-<p>Which is correct for the following regions of theelectromagnetic spectrum?</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951603/Chemistry/energy_wavelength_frequency_i6rpk8.jpg"></p>
-<p><strong>A 6</strong></p>
-<p>A; the relationship between wavelength, frequency and energy is <strong>the greater the energy, the shorter (smaller) the wavelength and the higher the frequency</strong>; ultraviolet light is high energy/short wavelength when compared to visible light; infrared light is lower energy/low frequency compare to visible light;</p>
-<p><strong>Q 7</strong></p>
-<p>In the emission spectrum of hydrogen, which electronic transition would produce a line in the <strong>visible region</strong> of the electromagnetic spectrum?</p>
-<p>A. n = 2 → n = 1</p>
-<p><strong>B n = 3 → n = 2</strong></p>
-<p>C. n = 2 → n = 3</p>
-<p>D. n = ∞ → n = 1</p>
-<p><strong>A 7</strong></p>
-<p>B; the series of lines found in the <strong>visible region</strong> of the spectrum is called the Balmer series; they are associated with electronic transitions from upper energy levels down to the n = 2 energy level;</p>
-<p><strong>Tip</strong></p>
-<p>能看见的在n=2层</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951603/Chemistry/visible_n2_c1tsj2.jpg"></p>
-<p><strong>Q 8</strong></p>
-<p>Which describes the visible emission spectrum of hydrogen?</p>
-<p>A. A series of lines converging at longer wavelength</p>
-<p>B. A series of regularly spaced lines</p>
-<p>C. A series of lines converging at lower energy</p>
-<p><strong>D. A series of lines converging at higher frequency</strong></p>
-<p><strong>A 8</strong></p>
-<p>D; the line emission spectrum of hydrogen provides evidence for the existence of electron in discrete energy levels, which converge at higher energies; high energy photons of light have a higher frequency and shorter wavelength;</p>
-<p><strong>Q 9</strong></p>
-<p>What is the order of increasing energy of the orbitals within a single energy level?</p>
-<p>A. d &lt; s &lt; f &lt; p</p>
-<p><strong>B. s &lt; p &lt; d &lt; f</strong></p>
-<p>C. p &lt; s &lt; f &lt; d</p>
-<p>D. f &lt; d &lt; p &lt; s</p>
-<p><strong>A 9</strong></p>
-<p>B; the <strong>energy levels</strong> are split into sublevels, of which there are <strong>four common types: s,p,d and f</strong>; each has a characteristic shape and associated energy; <strong>the order of increasing energy is s&lt;p&lt;d&lt;f</strong>;</p>
-<p><strong>Q 10</strong></p>
-<p>Draw and label an energy level diagram for the hydrogen atom. In your diagram show how<br>the series of lines in the ultraviolet and visible regions of its emission spectrum are produced,<br>clearly labelling each series.</p>
-<p><strong>A 10</strong></p>
-<p>See table and diagrams again on page 54</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951603/Chemistry/visible_and_ultraviolet_region_ajprts.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568951603/Chemistry/visible_n2_c1tsj2.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920/">IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (1/2）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Nuclear AtomQuestionsQuote from Oxford IB Chemistry Course Book (p. 65):
+
+Q 1
+What is the number of protons, electrons, and neutrons in boron-11?
+A. 5 protons, 5 electrons, and 11 neut
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/" data-id="ckf5j2010003kdxw29oj47sdp" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (2/2）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.614Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/">IB Chemistry SL — Nuclear Atom （190919）如何计算electron configuration</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.618Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Nuclear-Atom"><a href="#The-Nuclear-Atom" class="headerlink" title="The Nuclear Atom"></a>The Nuclear Atom</h3><h3 id="Worked-examples"><a href="#Worked-examples" class="headerlink" title="Worked examples"></a>Worked examples</h3><p>Quote from Oxford IB Chemistry Course Book (p. 63):</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-<p><strong>Example 1</strong></p>
-<p>推导出Mg, Mg 2 +，O和O 2-的 <strong>full electron configuration</strong>，</p>
-<p><strong>Tips 1</strong></p>
-<p>需要参照full electron configration表，以下的表是周期表中前36个元素，随着原子序数的增加，标识其一个元素内芯的电子core electrons）。</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893518/Chemistry/electron_config1_cqi4c5.png"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893519/Chemistry/electron_config2_zxtfyv.png"></p>
-<p><strong>Tips 2</strong></p>
-<p>科学家为了描述原子结构，特别是电子的排列， 假定电子是运行在以原子核为中心的轨道atomic orbitals上的，有几个原子轨道的类型：s，p，d和f等。每种类型都有一个特征形状和相关的能量。</p>
-<p><strong>Tips 3</strong></p>
-<p> IB化学需要你能够推断出electron configuration for the atoms and ions of the elements<br>, 有些是只是内芯的电子core electrons， 其它还包括外部价电子outer valence electrons</p>
-<p><em>Solution:</em></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893518/Chemistry/Mg_electron_ctnsex.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893516/Chemistry/O_electron_sv1mgv.jpg"></p>
-<p>Note<br>Mg 2 +和O 2- electron config是相同的：它们包含相同数量的电子, 是等电子的isoelectronic。其它 Na +，F-和NE也是等电子的。Mg 2 +和O 2-。但是，这些元素中的每一种都有不同质子数（原子序数Z）：</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893519/Chemistry/%E4%B8%8D%E5%90%8C%E8%B4%A8%E5%AD%90_nemjjy.png"></p>
-<p><strong>Example 2</strong></p>
-<p>推导出condensed的电子配置S，S 2-，Fe，Fe 2 +</p>
-<p><strong>Tips 1</strong></p>
-<p>condensed的电子配置就是一种简写，原因是全电子配置随着原子序数的增加变得相当，冗长而繁琐。<br>它的写法是 [最近的惰性气体核心] +价电子， Nearest noble gas core + valence electrons，比如</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893518/Chemistry/condensed_example_btvrco.png"></p>
-<p><em>Solution:</em></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893515/Chemistry/condensed_example2_kfmbng.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/">IB Chemistry SL — Nuclear Atom （190920）计算习题汇总 (2/2）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Nuclear AtomQuestionsQuote from Oxford IB Chemistry Course Book (p. 65):
+
+Q 6
+Which is correct for the following regions of theelectromagnetic spectrum?
+
+A 6
+A; the relationship betwee
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/" data-id="ckf5j200y003gdxw2a92sd2b4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Nuclear Atom （190919）如何计算electron configuration" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.612Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/">IB Chemistry SL — Nuclear Atom （190919）如何计算 orbital diagrams</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.614Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Nuclear-Atom"><a href="#The-Nuclear-Atom" class="headerlink" title="The Nuclear Atom"></a>The Nuclear Atom</h3><h3 id="Worked-examples"><a href="#Worked-examples" class="headerlink" title="Worked examples"></a>Worked examples</h3><p>Quote from Oxford IB Chemistry Course Book (p. 64):</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-<p><strong>Example 1</strong></p>
-<p>推导出Ni，Ni 2+的orbital diagrams。</p>
-<p><strong>Tips 1</strong></p>
-<p>需要参照full electron configration表，以下的表是周期表中前36个元素的一部分。</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893519/Chemistry/electron_config2_zxtfyv.png"></p>
-<p><strong>Tips 2</strong></p>
-<p>首先写出元素的condensed configuration。然后画orbit diagram. </p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893516/Chemistry/Ni_electron_config_mwwgny.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893514/Chemistry/Ni_2_electron_config_jutniy.jpg"></p>
-<p><strong>Tips 3</strong></p>
-<p>轨道图使用了带描述的箭头框内符号代表轨道的electron and box。</p>
-<p>轨道图可以显示所有轨道，如完整的电子配置，或只是轨道超出最近的惰性气体核心，如在condensed config中。轨道图可能具有显示能量水平的步骤或可以在一水平线上表示。例如，下图显示可用于表示的两种类型的轨道图：</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893514/Chemistry/orbital_diagram_example_pisme5.jpg"></p>
-<p><em>Solution:</em></p>
-<p>该题的轨道图，用的是1)condensed config 2) 在一水平线上表示</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893513/Chemistry/Ni_orbital_digram_nbq8yr.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1568893512/Chemistry/Ni_2_orbital_digram_bdhmhz.jpg"></p>
-<p>Notice that in the orbital diagram for the Ni2+cation there are no electrons in the 4s orbital – the box should be left <strong>blank</strong>.</p>
-<p>记住, 那两个电子相同的轨道具有<strong>相反</strong>的自旋量数.</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919/">IB Chemistry SL — Nuclear Atom （190919）如何计算electron configuration</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Nuclear AtomWorked examplesQuote from Oxford IB Chemistry Course Book (p. 63):
+
+Example 1
+推导出Mg, Mg 2 +，O和O 2-的 full electron configuration，
+Tips 1
+需要参照full electron configration表，以下的表
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/" data-id="ckf5j200y003edxw20lusbah4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Nuclear Atom （190919）如何计算 orbital diagrams" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/21/IB-Chemistry-SL-Periodic-Table-190921" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.609Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/">IB Chemistry SL — Periodic Table （190921）元素周期表是科学分类的一个很好的例子</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.612Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Periodic-Table"><a href="#The-Periodic-Table" class="headerlink" title="The Periodic Table"></a>The Periodic Table</h3><h3 id="Quick-question"><a href="#Quick-question" class="headerlink" title="Quick question"></a>Quick question</h3><p>Quote from Oxford IB Chemistry Course Book (p. 76):</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-<p><strong>The periodic table is an excellent example of classication in science. It classifies elements in several ways</strong></p>
-<ol>
-<li><p><strong>metals, non-metals, and metalloids</strong>;</p>
-</li>
-<li><p><strong>main-group and transition elements</strong>; </p>
-</li>
-<li><p><strong>groups and periods</strong>;</p>
-</li>
-<li><p><strong>elements  with acidic, basic, and amphoteric oxides</strong>;</p>
-</li>
-</ol>
-<ol>
-<li><strong>s, p, d, and f sublevels</strong>.</li>
-</ol>
-<p>元素周期表是科学分类的一个很好的例子。它以几种方式分类元素 – </p>
-<ol>
-<li><p>金属，非金属和类金属;</p>
-</li>
-<li><p>主要群体和过渡要素; main group and transition elements</p>
-</li>
-<li><p>群体和时期;  groups and periods</p>
-</li>
-<li><p>分子含有酸性elements with acidic,，basic and amphoteric oxides 酸性、中性？和两性氧化物？（不确定这是啥）; </p>
-</li>
-<li><p>s，p，d和f sub levels。</p>
-</li>
-</ol>
-<p>考试的时候可能会则就其中某几种考评学生对分类classification and categorization 的理解，要理解这是化学加整理和展示知识的多种方法</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/19/IB-Chemistry-SL-Nuclear-Atom-190919-2/">IB Chemistry SL — Nuclear Atom （190919）如何计算 orbital diagrams</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Nuclear AtomWorked examplesQuote from Oxford IB Chemistry Course Book (p. 64):
+
+Example 1
+推导出Ni，Ni 2+的orbital diagrams。
+Tips 1
+需要参照full electron configration表，以下的表是周期表中前36个元素的一部分。
+
+Tip
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/" data-id="ckf5j2013003udxw26atvbtki" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
-
-
-  
-
-
-  <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/6/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/8/">Next &amp;raquo;</a>
-  </nav>
 
-</section>
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
         
-          <aside id="sidebar">
-  
+        <a href="/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/" class="thumbnail">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a></li></ul>
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Periodic Table （190921）元素周期表是科学分类的一个很好的例子" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/">0</span>
+    
+</span>
+
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.609Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/">IB Chemistry SL — Periodic Table （190921）元素周期表是科学分类的一个很好的例子</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            Chemistry SLThe Periodic TableQuick questionQuote from Oxford IB Chemistry Course Book (p. 76):
+
+The periodic table is an excellent example of classication in science. It classifies elements in sever
+        </p>
     </div>
-  </div>
-
-
-  
+</article>
+    
+        </div>
     
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li></ul>
+
+    </div></section>
+
+
+    <nav id="page-nav">
+        <span class="pages">Page 7 of 10</span>
+        <a class="extend prev" rel="prev" href="/page/6/">&laquo;</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/8/">&raquo;</a>
+    </nav>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
     </div>
-  </div>
-
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+    <div class="widgets-container">
         
-          <li>
-            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/">IB Others —— SAT Policies for Popular Colleges(200916)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/">IB Admission —— IB score unexpected (200708)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/">IB Others —— May 2020 Awarding (200715)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/">IB Admission —— Justice for May 2020 IB Graduates (200709)</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+            
+                
 
-  
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1600267931/Others/SAT_policies_fuladu.png)" alt="IB Others —— SAT Policies for Popular Colleges(200916)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="title">IB Others —— SAT Policies for Popular Colleges(200916)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:15:28.818Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594223509/Admission/IB_score_m1ok05.jpg)" alt="IB Admission —— IB score unexpected (200708)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="title">IB Admission —— IB score unexpected (200708)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.858Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594828053/Others/2020_awarding_korejy.jpg)" alt="IB Others —— May 2020 Awarding (200715)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="title">IB Others —— May 2020 Awarding (200715)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.853Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594049585/Admission/ib_course_equivalence_v3ccya.jpg)" alt="IB Admission —— BU&#39;s ib_course_equivalence (200706)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="title">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.849Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594309755/Admission/Justice_for_May_2020_IB_Graduates_wju8gd.jpg)" alt="IB Admission —— Justice for May 2020 IB Graduates (200709)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="title">IB Admission —— Justice for May 2020 IB Graduates (200709)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.845Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">23</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a><span class="category-list-count">10</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a><span class="archive-list-count">91</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2020 John Doe</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
 
-<script src="/js/script.js"></script>
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
 
 
 
+<!-- Custom Scripts -->
 
-  </div>
+<script src="/js/main.js"></script>
+
+
 </body>
 </html>

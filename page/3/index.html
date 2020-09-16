@@ -1,855 +1,1002 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="utf-8" />
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+    
+
+    
+    <title>Hexo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/page/3/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
+    
+
+    
+        <link rel="alternate" href="/" title="Hexo" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
 <link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
 
 <meta name="generator" content="Hexo 5.1.1"></head>
 
 <body>
-  <div id="container">
     <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Admission/">Admission</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Biology/">Biology</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Business/">Business</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chinese/">Chinese</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/English/">English</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Maths/">Maths</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Others/">Others</a></li></ul>
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-2020/03/19/IB-Others- Instantly-transform-your-writing-into -20200319" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.788Z" itemprop="datePublished">2020-09-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Others/">Others</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
     
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/">IB Others —  instantly transform your writing into a readable styles (200319）</a>
+    <em class="page-title-link" data-url="home">Home</em>
     </h1>
-  
+</div>
 
-      </header>
+                        <div class="main-body-content">
+                            
+
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="英语语法纠正-英文润色服务测评-StyleWriter"><a href="#英语语法纠正-英文润色服务测评-StyleWriter" class="headerlink" title="英语语法纠正/英文润色服务测评 (StyleWriter)"></a>英语语法纠正/英文润色服务测评 (StyleWriter)</h3><p>Quoted from <a target="_blank" rel="noopener" href="http://www.editorsoftware.com/">http://www.editorsoftware.com</a></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1584632882/Others/stylewriter_v05fsz.jpg"></p>
-<blockquote>
-<p>目前在语法纠错/润色领域，产品大致只能做到检测语法错误，优化用词，无法完全依靠这些软件来提高写作水平。但这个市场中类似stylewriter这样的产品目前已较为成熟。</p>
-</blockquote>
-<p><strong>功能一</strong></p>
-<p><strong>StyleWriter英文润色软件分析有三个指标：bog index，ave sentence, passive index</strong></p>
-<p>Bog指数包括了决定一篇文章的主要元素：单词、句子和表达形式。根据Stylewriter的标准，好文章应该是句子短小精悍，用词干净利落，而且尽量少用被动语态。反过来，句子长，词语偏，被动语态多，Bog指数就越大，文章也就越烂。好文章的bog应该在20以下。</p>
-<p><strong>功能二</strong></p>
-<p><strong>虽不能判别文章的优劣，却可能鉴别作者的真假</strong></p>
-<p>Style Writer界面上有相关统计数字和图表。尽管不同作者的句子分布模式不同，但同一个作者的分布，大体上是不变的，那几个指标也大致“一致”。 所以，尽管不同作者的句子分布模式不同，Stylewriter的指标虽不能判别文章的优劣，却可能鉴别作者的真假。</p>
-<p>最后是价格</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1584633458/Others/stylewriter_2_gyuecw.jpg"></p>
+    
+        
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1584632882/Others/stylewriter_v05fsz.jpg)" alt="IB Others —  instantly transform your writing into a readable styles (200319）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/">0</span>
+    
+</span>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/" data-id="ckf5j200r002wdxw2411lgxaf" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
-
-  
-    <article id="post-2020/03/25/IB-English- HL-On-writing-a-memoir-of-the-craft-Scribner-20200325" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.781Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/">IB English HL — On writing a memoir of the craft-Scribner (200325）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Others/">Others</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.788Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><h3 id="Book-recommended"><a href="#Book-recommended" class="headerlink" title="Book recommended"></a>Book recommended</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1585148774/English/on_writing_aqd185.jpg"></p>
-<h2 id="On-writing-a-memoir-of-the-craft-Scribner"><a href="#On-writing-a-memoir-of-the-craft-Scribner" class="headerlink" title="On writing_ a memoir of the craft-Scribner##"></a>On writing_ a memoir of the craft-Scribner##</h2><p>By King, Stephen </p>
-<h3 id="Author’s-opinions"><a href="#Author’s-opinions" class="headerlink" title="Author’s opinions"></a>Author’s opinions</h3><p>There are no bad dogs, according to the title of a popular training manual, but don’t tell that to the parent of a child mauled by a pit bull or a rottweiler; he or she is apt to bust your beak for you. And no matter how much I want to encourage the man or woman trying for the first time to write seriously, I can’t lie and say there are no bad writers. Sorry, but there are lots of bad writers. Some are on-staff at your local newspaper, usually reviewing little-theater productions or pontificating about the local sports teams. Some have scribbled their way to homes in the Caribbean, leaving a trail of pulsing adverbs, wooden characters, and vile passive-voice constructions behind them. Others hold forth at open-mike poetry slams, wearing black turtlenecks and wrinkled khaki pants; they spout doggerel about “my angry lesbian breasts” and “the tilted alley where I cried my mother’s name.”</p>
-<p>Writers form themselves into the pyramid we see in all areas of human talent and human creativity. At the bottom are the bad ones. Above them is a group which is slightly smaller but still large and welcoming; these are the competent writers. They may also be found on the staff of your local newspaper, on the racks at your local bookstore, and at poetry readings on Open Mike Night. These are folks who somehow understand that although a lesbian may be angry, her breasts will remain breasts.</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1585148774/English/on_writing_aqd185.jpg"></p>
-<p>The next level is much smaller. These are the really good writers. Above them—above almost all of us—are the Shakespeares, the Faulkners, the Yeatses, Shaws, and Eudora Weltys. They are geniuses, divine accidents, gifted in a way which is beyond our ability to understand, let alone attain. Shit, most geniuses aren’t able to understand themselves, and many of them lead miserable lives, realizing (at least on some level) that they are nothing but fortunate freaks, the intellectual version of runway models who just happen to be born with the right cheekbones and with breasts which fit the image of an age.</p>
-<p>I am approaching the heart of this book with two theses, both simple. The first is that good writing consists of mastering the fundamentals (vocabulary, grammar, the elements of style) and then filling the third level of your toolbox with the right instruments. The second is that while it is impossible to make a competent writer out of a bad writer, and while it is equally impossible to make a great writer out of a good one, it is possible, with lots of hard work, dedication, and timely help, to make a good writer out of a merely competent one.</p>
-<p>I’m afraid this idea is rejected by lots of critics and plenty of writing teachers, as well. Many of these are liberals in their politics but crustaceans in their chosen fields. Men and women who would take to the streets to protest the exclusion of African-Americans or Native Americans (I can imagine what Mr. Strunk would have made of these politically correct but clunky terms) from the local country club are often the same men and women who tell their classes that writing ability is fixed and immutable; once a hack, always a hack. Even if a writer rises in the estimation of an influential critic or two, he/she always carries his/her early reputation along, like a respectable married woman who was a wild child as a teenager. Some people never forget, that’s all, and a good deal of literary criticism serves only to reinforce a caste system which is as old as the intellectual snobbery which nurtured it. Raymond Chandler may be recognized now as an important figure in twentieth-century American literature, an early voice describing the anomie of urban life in the years after World War II, but there are plenty of critics who will reject such a judgment out of hand. He’s a hack! they cry indignantly. A hack with pretensions! The worst kind! The kind who thinks he can pass for one of us!</p>
-<p>Critics who try to rise above this intellectual hardening of the arteries usually meet with limited success. Their colleagues may accept Chandler into the company of the great, but are apt to seat him at the foot of the table. And there are always those whispers: Came out of the pulp tradition, you know … carries himself well for one of those, doesn’t he? … did you know he wrote for Black Mask in the thirties … yes, regrettable …</p>
-<p>Even Charles Dickens, the Shakespeare of the novel, has faced a constant critical attack as a result of his often sensational subject matter, his cheerful fecundity (when he wasn’t creating novels, he and his wife were creating children), and, of course, his success with the book-reading groundlings of his time and ours. Critics and scholars have always been suspicious of popular success. Often their suspicions are justified. In other cases, these suspicions are used as an excuse not to think. No one can be as intellectually slothful as a really smart person; give smart people half a chance and they will ship their oars and drift … dozing to Byzantium, you might say.</p>
-<p>So yes—I expect to be accused by some of promoting a brainless and happy Horatio Alger philosophy, defending my own less-than-spotless reputation while I’m at it, and of encouraging people who are “just not our sort, old chap” to apply for membership at the country club. I guess I can live with that. But before we go on, let me repeat my basic premise: if you’re a bad writer, no one can help you become a good one, or even a competent one. If you’re good and want to be great … fuhgeddaboudit.</p>
-<p>What follows is everything I know about how to write good fiction. I’ll be as brief as possible, because your time is valuable and so is mine, and we both understand that the hours we spend talking about writing is time we don’t spend actually doing it. I’ll be as encouraging as possible, because it’s my nature and because I love this job. I want you to love it, too. But if you don’t want to work your ass off, you have no business trying to write well—settle back into competency and be grateful you have even that much to fall back on. There is a muse,* but he’s not going to come fluttering down into your writing room and scatter creative fairy-dust all over your typewriter or computer station. He lives in the ground. He’s a basement guy. You have to descend to his level, and once you get down there you have to furnish an apartment for him to live in. You have to do all the grunt labor, in other words, while the muse sits and smokes cigars and admires his bowling trophies and pretends to ignore you. Do you think this is fair? I think it’s fair. He may not be much to look at, that muse-guy, and he may not be much of a conversationalist (what I get out of mine is mostly surly grunts, unless he’s on duty), but he’s got the inspiration. It’s right that you should do all the work and burn all the midnight oil, because the guy with the cigar and the little wings has got a bag of magic. There’s stuff in there that can change your life.</p>
-<p>Believe me, I know.</p>
-<p>If you want to be a writer, you must do two things above all others: read a lot and write a lot. There’s no way around these two things that I’m aware of, no shortcut.</p>
-<p>I’m a slow reader, but I usually get through seventy or eighty books a year, mostly fiction. I don’t read in order to study the craft; I read because I like to read. It’s what I do at night, kicked back in my blue chair. Similarly, I don’t read fiction to study the art of fiction, but simply because I like stories. Yet there is a learning process going on. Every book you pick up has its own lesson or lessons, and quite often the bad books have more to teach than the good ones.</p>
-<p>When I was in the eighth grade, I happened upon a paperback novel by Murray Leinster, a science fiction pulp writer who did most of his work during the forties and fifties, when magazines like Amazing Stories paid a penny a word. I had read other books by Mr. Leinster, enough to know that the quality of his writing was uneven. This particular tale, which was about mining in the asteroid belt, was one of his less successful efforts. Only that’s too kind. It was terrible, actually, a story populated by paper-thin characters and driven by outlandish plot developments. Worst of all (or so it seemed to me at the time), Leinster had fallen in love with the word zestful. Characters watched the approach of ore-bearing asteroids with zestful smiles. Characters sat down to supper aboard their mining ship with zestful anticipation. Near the end of the book, the hero swept the large-breasted, blonde heroine into a zestful embrace. For me, it was the literary equivalent of a smallpox vaccination: I have never, so far as I know, used the word zestful in a novel or a story. God willing, I never will.</p>
-<p>Asteroid Miners (which wasn’t the title, but that’s close enough) was an important book in my life as a reader. Almost everyone can remember losing his or her virginity, and most writers can remember the first book he/she put down thinking: I can do better than this. Hell, I am doing better than this! What could be more encouraging to the struggling writer than to realize his/her work is unquestionably better than that of someone who actually got paid for his/her stuff?</p>
-<p>One learns most clearly what not to do by reading bad prose—one novel like Asteroid Miners (or Valley of the Dolls, Flowers in the Attic, and The Bridges of Madison County, to name just a few) is worth a semester at a good writing school, even with the superstar guest lecturers thrown in.</p>
-<p>Good writing, on the other hand, teaches the learning writer about style, graceful narration, plot development, the creation of believable characters, and truth-telling. A novel like The Grapes of Wrath may fill a new writer with feelings of despair and good old-fashioned jealousy—“I’ll never be able to write anything that good, not if I live to be a thousand”— but such feelings can also serve as a spur, goading the writer to work harder and aim higher. Being swept away by a combination of great story and great writing—of being flattened, in fact—is part of every writer’s necessary formation. You cannot hope to sweep someone else away by the force of your writing until it has been done to you.</p>
-<p>So we read to experience the mediocre and the outright rotten; such experience helps us to recognize those things when they begin to creep into our own work, and to steer clear of them. We also read in order to measure ourselves against the good and the great, to get a sense of all that can be done. And we read in order to experience different styles.</p>
-<p>You may find yourself adopting a style you find particularly exciting, and there’s nothing wrong with that. When I read Ray Bradbury as a kid, I wrote like Ray Bradbury—everything green and wondrous and seen through a lens smeared with the grease of nostalgia. When I read James M. Cain, everything I wrote came out clipped and stripped and hardboiled. When I read Lovecraft, my prose became luxurious and Byzantine. I wrote stories in my teenage years where all these styles merged, creating a kind of hilarious stew. This sort of stylistic blending is a necessary part of developing one’s own style, but it doesn’t occur in a vacuum. You have to read widely, constantly refining (and redefining) your own work as you do so. It’s hard for me to believe that people who read very little (or not at all in some cases) should presume to write and expect people to like what they have written, but I know it’s true. If I had a nickel for every person who ever told me he/she wanted to become a writer but “didn’t have time to read,” I could buy myself a pretty good steak dinner. Can I be blunt on this subject? If you don’t have time to read, you don’t have the time (or the tools) to write. Simple as that.</p>
-<p>Reading is the creative center of a writer’s life. I take a book with me everywhere I go, and find there are all sorts of opportunities to dip in. The trick is to teach yourself to read in small sips as well as in long swallows. Waiting rooms were made for books—of course! But so are theater lobbies before the show, long and boring checkout lines, and everyone’s favorite, the john. You can even read while you’re driving, thanks to the audiobook revolution. Of the books I read each year, anywhere from six to a dozen are on tape. As for all the wonderful radio you will be missing, come on—how many times can you listen to Deep Purple sing “Highway Star”?</p>
-<p>Reading at meals is considered rude in polite society, but if you expect to succeed as a writer, rudeness should be the second-to-least of your concerns. The least of all should be polite society and what it expects. If you intend to write as truthfully as you can, your days as a member of polite society are numbered, anyway.</p>
-<p>Where else can you read? There’s always the treadmill, or whatever you use down at the local health club to get aerobic. I try to spend an hour doing that every day, and I think I’d go mad without a good novel to keep me company. Most exercise facilities (at home as well as outside it) are now equipped with TVs, but TV—while working out or anywhere else—really is about the last thing an aspiring writer needs. If you feel you must have the news analyst blowhards on CNN while you exercise, or the stock market blowhards on MSNBC, or the sports blowhards on ESPN, it’s time for you to question how serious you really are about becoming a writer. You must be prepared to do some serious turning inward toward the life of the imagination, and that means, I’m afraid, that Geraldo, Keith Obermann, and Jay Leno must go. Reading takes time, and the glass teat takes too much of it.</p>
-<p>Once weaned from the ephemeral craving for TV, most people will find they enjoy the time they spend reading. I’d like to suggest that turning off that endlessly quacking box is apt to improve the quality of your life as well as the quality of your writing. And how much of a sacrifice are we talking about here? How many Frasier and ER reruns does it take to make one American life complete? How many Richard Simmons infomercials? How many whiteboy/fatboy Beltway insiders on CNN? Oh man, don’t get me started. Jerry-Springer-Dr.-Dre-Judge-Judy-Jerry-Falwell-Donny-and-Marie, I rest my case.</p>
-<p>When my son Owen was seven or so, he fell in love with Bruce Springsteen’s E Street Band, particularly with Clarence Clemons, the band’s burly sax player. Owen decided he wanted to learn to play like Clarence. My wife and I were amused and delighted by this ambition. We were also hopeful, as any parent would be, that our kid would turn out to be talented, perhaps even some sort of prodigy. We got Owen a tenor saxophone for Christmas and lessons with Gordon Bowie, one of the local music men. Then we crossed our fingers and hoped for the best.</p>
-<p>Seven months later I suggested to my wife that it was time to discontinue the sax lessons, if Owen concurred. Owen did, and with palpable relief—he hadn’t wanted to say it himself, especially not after asking for the sax in the first place, but seven months had been long enough for him to realize that, while he might love Clarence Clemons’s big sound, the saxophone was simply not for him—God had not given him that particular talent.</p>
-<p>I knew, not because Owen stopped practicing, but because he was practicing only during the periods Mr. Bowie had set for him: half an hour after school four days a week, plus an hour on the weekends. Owen mastered the scales and the notes—nothing wrong with his memory, his lungs, or his eye-hand coordination—but we never heard him taking off, surprising himself with something new, blissing himself out. And as soon as his practice time was over, it was back into the case with the horn, and there it stayed until the next lesson or practice-time. What this suggested to me was that when it came to the sax and my son, there was never going to be any real play-time; it was all going to be rehearsal. That’s no good. If there’s no joy in it, it’s just no good. It’s best to go on to some other area, where the deposits of talent may be richer and the fun quotient higher.</p>
-<p>Talent renders the whole idea of rehearsal meaningless; when you find something at which you are talented, you do it (whatever it is) until your fingers bleed or your eyes are ready to fall out of your head. Even when no one is listening (or reading, or watching), every outing is a bravura performance, because you as the creator are happy. Perhaps even ecstatic. That goes for reading and writing as well as for playing a musical instrument, hitting a baseball, or running the four-forty. The sort of strenuous reading and writing program I advocate—four to six hours a day, every day—will not seem strenuous if you really enjoy doing these things and have an aptitude for them; in fact, you may be following such a program already. If you feel you need permission to do all the reading and writing your little heart desires, however, consider it hereby granted by yours truly.</p>
-<p>The real importance of reading is that it creates an ease and intimacy with the process of writing; one comes to the country of the writer with one’s papers and identification pretty much in order. Constant reading will pull you into a place (a mind-set, if you like the phrase) where you can write eagerly and without self-consciousness. It also offers you a constantly growing knowledge of what has been done and what hasn’t, what is trite and what is fresh, what works and what just lies there dying (or dead) on the page. The more you read, the less apt you are to make a fool of yourself with your pen or word processor.</p>
-<p>….</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/03/19/IB-Others-%20Instantly-transform-your-writing-into%20-20200319/">IB Others —  instantly transform your writing into a readable styles (200319）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            英语语法纠正/英文润色服务测评 (StyleWriter)Quoted from http://www.editorsoftware.com
+
+
+目前在语法纠错/润色领域，产品大致只能做到检测语法错误，优化用词，无法完全依靠这些软件来提高写作水平。但这个市场中类似stylewriter这样的产品目前已较为成熟。
+
+功能一
+StyleWriter英文润色软件分析有三个指标：bog index，ave
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/" data-id="ckf5j201w0059dxw29u8o0b6d" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1585148774/English/on_writing_aqd185.jpg)" alt="IB English HL — On writing a memoir of the craft-Scribner (200325）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/06/17/IB-English- HL-The-End-of-Your-Life-Book-Club-2020617" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.776Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/">IB English HL — The End of Your Life Book club (200617）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.781Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1592387498/English/The_end_of_life_book_club_i1rxts.jpg"></p>
-<p>&emsp;<br>&emsp;</p>
-<ul>
-<li><p><code>生命最后的读书会（The End of Your Life Book club),威尔·施瓦尔贝,中国友谊出版公司</code>:</p>
-<ul>
-<li>手记</li>
-<li>终得安全<ul>
-<li>Wallace Stegner, Crossing to Safety 华莱士·斯特格纳的《终得安全》,它的作者生于二十世纪初，作品主要关于美国西部,这是一个关于两对夫妻——席德与查瑞提、拉里与萨莉之间终生不渝的友谊。在故事的一开头就提到，查瑞提即将死于癌症</li>
-</ul>
-</li>
-<li>相约萨马拉<ul>
-<li>Ken Follett, The Pillars of the Earth 肯·弗莱特的《圣殿春秋》,小说的开场白，“小男孩们早早地来看绞刑了”</li>
-<li>John Irving, A Prayer for Owen Meany 约翰·欧文的《为欧文·米尼祈祷》,第一句：“我注定要记得一个破锣嗓子的男孩，倒不是因为他的声音，也并非因为他是我所认识个头最小的人，甚至不是因为他是造成我妈妈死亡的罪魁祸首，而是因为他是使我信仰上帝的原因。欧文·米尼使我成为一名基督徒。”</li>
-<li>E. M. Forster, Howards End 福斯特的《霍华德庄园》,开头是“事情不妨从海伦给她姐姐的几封信说起”</li>
-<li>Ian McEwan, On Chesil Beach 伊恩·麦克尤恩的《在切瑟尔海滩上》，书中描写了一对1962年结婚的新婚夫妇的初次性经历。作者对这个过程中的种种狼狈做了详细的描述。《在切瑟尔海滩上》里的一个人物曾说过，他们之间最严重的问题就是，他们从没同时拥有过耐心与爱</li>
-<li>John O’Hara, Appointment in Samarra 奥哈拉的《相约萨马拉》，1934年，二十九岁的奥哈拉创作了《相约萨马拉》，故事发生在20世纪30年代宾夕法尼亚的虚构小镇——吉布斯维尔</li>
-</ul>
-</li>
-<li>七十空性论<ul>
-<li>The Buddha, The Diamond Cutter Sutra, translated by Gelong Thubten Tsultrim 鸠摩罗什 《金刚能般若波罗蜜经》</li>
-<li>Nagarjuna, Seventy Verses on Emptiness, translated by Gareth Sparham 龙树大师的《七十空性论》，非常非无常，亦非我无我，净不净苦乐，是故无颠倒，“Permanent is not;impermanent is not;a self is not;not a self(isn ot);clean is not;not clean is not;happy is not;suffering is not.”</li>
-<li>Roberto Bolaño, The Savage Detectives, translated by Natasha Wimmer 罗贝托·波拉尼奥的《荒野侦探》，智利诗人、小说家，故事以西班牙布拉瓦海岸为背景</li>
-<li>Michael Thomas, Man Gone Down 迈克尔·托马斯的《沉沦之人》，触及种族、美国梦、父权、金钱与爱，用童年与成年交叉叙述的手法，描写了波士顿的一个黑人孩子，在虽然已经强制废除了种族隔离的学校，却依然遭遇着由此引发的种种暴力，后来，他来到纽约，与一位白人女子结了婚，并有了三个孩子，却面临着重大危机，只有短短数天挽救家庭分崩离析的命运。母亲说，“它是这个国家这个城市最真实的写照。”</li>
-<li>Khaled Hosseini, The Kite Runner; A Thousand Splendid Suns 胡塞尼的《追风筝的人》和《灿烂千阳》，胡塞尼1965年出生于喀布尔。他早年就读于阿富汗的小学，十一岁时，随外交官父亲搬往巴黎。1991年苏联解体时，胡塞尼全家以难民身份留驻美国。后来，他成为一名医生，并利用每天上班前的时间写下了《追风筝的人》。《灿烂千阳》写的是女性。母亲深信，如果阿富汗的女性能够获得教育、阅读书籍，那么她们将会成为那个国家的拯救者。</li>
-<li>Susan Halpern, The Etiquette of Illness 苏珊·哈尔彭的《疾病的礼仪》</li>
-<li>David Halberstam, The Coldest Winter 大卫·哈伯斯塔姆的《最寒冷的冬天：美国人眼中的朝鲜战争》</li>
-</ul>
-</li>
-<li>初恋<ul>
-<li>赫尔曼·沃克的《初恋》，书里写的是一个想要当演员的犹太姑娘，如何在一个夏季剧场邂逅了一位作曲指挥家，并与他坠入爱河</li>
-</ul>
-</li>
-<li>霍比特人<ul>
-<li>J. R. R. Tolkien, The Hobbit; The Lord of the Rings J.R.R. 托尔金的 《霍比特人》</li>
-<li>罗曼·里夫的《爱花的牛》,这是30年代一个经典的故事，讲述一只热爱和平的牛（希特勒痛恨这本书并曾下令将其焚烧）</li>
-<li>Edward Steichen, The Family of Man, prologue by Carl Sandburg 爱德华·斯泰肯的《人类大家庭》,是一本关于世界的摄影作品集。</li>
-<li>John Updike, Couples 约翰·厄普代克的《夫妇们》,以通奸为主题</li>
-<li>Aleksandr Solzhenitsyn, The Gulag Archipelago 索尔仁尼琴的《古列格群岛》</li>
-<li>Günter Grass, The Tin Drum 君特·格拉斯的《锡鼓》</li>
-<li>杰拉丁的《禁忌祈祷书》</li>
-<li>Malcolm X, The Autobiography of Malcolm X: As Told to Alex Haley 亚历克斯·哈利 《马尔科姆X 自传》</li>
-</ul>
-</li>
-<li>每日的力量<ul>
-<li>Marilynne Robinson, Gilead 玛丽莲·鲁宾逊的《吉利德》,故事发生在20世纪50年代的爱荷华州虚构的小镇基列。这个小说是一个不久于人世的牧师写给他七岁儿子的信</li>
-<li>Rohinton Mistry, A Fine Balance 罗辛顿·米斯垂 《微妙的平衡》</li>
-<li>Anne Lamott, Traveling Mercies 安妮·拉莫特的《怜悯之旅：关于信仰的思考》</li>
-</ul>
-</li>
-<li>禁忌祈祷书(母亲被确诊癌症已经过了两个月)<ul>
-<li>N/A</li>
-</ul>
-</li>
-<li>我悲痛<ul>
-<li>Sindy Cheung, “I Am Sorrow” 辛迪·常 《我悲痛》</li>
-</ul>
-</li>
-<li>非普通读者(2008年1月，母亲对她的伦敦之行充满期待，这是她知道诊断结果之后的第一次旅行)<ul>
-<li>William Trevor, Felicia’s Journey 威廉·崔佛的《弗莉西亚的旅行》,爱尔兰短篇小说家,讲述了一个怀有身孕却一无所有的年轻女人，从居住的小镇逃离去找寻让她怀孕的男人</li>
-<li>Alan Bennett, The Uncommon Reader 艾伦·班尼特的《非普通读者》，故事的背景设在伦敦，主角是英国女王</li>
-<li>Edith Nesbit, The Railway Children 伊迪丝·内斯比特 《铁道儿童》</li>
-<li>Arthur Ransome, Swallows and Amazons 亚瑟·兰塞姆 《燕子号与亚马逊号》</li>
-</ul>
-</li>
-<li>蜥蜴笼<ul>
-<li>Karen Connelly, The Lizard Cage 凯伦·康纳利的《蜥蜴笼》 以缅甸为背景的小说</li>
-</ul>
-</li>
-<li>博来·法拉先生<ul>
-<li>Elie Wiesel, Night 埃利·威塞尔 《夜》</li>
-<li>Ishmael Beah, A Long Way Gone 伊斯梅尔·比亚 《长路漫漫》</li>
-<li>Randy Pausch, The Last Lecture, with Jeffrey Zaslow 兰迪·波许的《最后的演讲》</li>
-<li>Josephine Tey, Brat Farrar 约瑟夫·铁伊的《博来·法拉先生》</li>
-<li>萨姆塞特·毛姆 《萨默塞特·毛姆选集》</li>
-</ul>
-</li>
-<li>大陆漂移<ul>
-<li>Russell Banks, Continental Drift 拉塞尔·班克斯的《大陆漂移》，一个有过错但富有同情心的冰球运动员，为了追逐美国梦，带着自己的妻子和孩子从新罕布什尔搬到佛罗里达，希望为家人和自己谋求一个更好的生活。书中同时还描述了一位年轻的女人带着她刚出生不久的孩子和侄子一起逃难到美国，目的地也是佛罗里达，试图为他们三人争取新的生活。</li>
-</ul>
-</li>
-<li>面纱<ul>
-<li>W. Somerset Maugham; The Painted Veil; 萨姆塞特·毛姆的《面纱》，讲述了一个医生和他不忠于婚姻的妻子凯蒂由于种种理由，来到中国乡间治疗霍乱的故事。毛姆在1925年写下了这本书，时年五十一岁</li>
-</ul>
-</li>
-<li>大教堂谋杀案<ul>
-<li>T. S. Eliot, Murder in the Cathedral</li>
-</ul>
-</li>
-<li>正念<ul>
-<li>Thomas Mann, Tonio Kröger; Death in Venice; The Magic Mountain; Mario and the Magician; 托马斯·曼的《约瑟与他的兄弟们》，那是一本一千五百页的长篇</li>
-<li>F. W. Robertson; Home 玛莉莲·罗宾逊的《家园》，一本当代小说，重新讲述了一个浪子回头的故事</li>
-</ul>
-</li>
-<li>心<ul>
-<li>W. Somerset Maugham， Collected Short Stories, including “The Verger”毛姆的《司事》，短篇故事集之一</li>
-</ul>
-</li>
-<li>盐的代价<ul>
-<li>Patricia Highsmith, Strangers on a Train; The Price of Salt; 派翠西亚·海史密斯的《盐的代价》，讲述了一个名叫特雷莎的年轻女人，她最初的愿望是成为一名舞台设计师，但她最终却在一家商店做了一名临时售货员，那是一家卖洋娃娃的商店，与海史密斯经历的一样。她孤独而百无聊赖，她有一个男朋友，但不爱他，她和一位同在店里工作的老女人打发了郁闷的一晚，她悲伤地想着，也许这就是自己一生的写照</li>
-</ul>
-</li>
-<li>拉合尔茶馆的陌生人<ul>
-<li>莫欣·哈米德的《拉合尔茶馆的陌生人》,这本书讲述了一个来自巴基斯坦的普林斯顿大学的年轻学生，他想尽办法融入纽约生活，最后还是不得不返回巴基斯坦的故事</li>
-</ul>
-</li>
-<li>不可思议的一年<ul>
-<li>N/A</li>
-</ul>
-</li>
-<li>奥丽芙·基特里奇<ul>
-<li>Daniyal Mueenuddin, In Other Rooms, Other Wonders 丹尼瓦尔·缪努丁的《其他房间，其他奇迹》</li>
-<li>Elizabeth Strout, Olive Kitteridge 伊丽莎白·斯特劳特的《奥丽芙·基特里奇》</li>
-</ul>
-</li>
-<li>像我们这样的女孩<ul>
-<li>Frances Osborne, The Bolter 弗朗西斯·奥斯本的《脱缰之马》,讲述了一个自私、绯闻不断的女人的真实故事，故事背景发生在20世纪初的英国和肯尼亚，对于母亲来说，令她感动的是坚强的女性在那个时代、那次事件中的所作所为，也因为会让她想到自己而产生极大的共鸣</li>
-<li>George Bernard Shaw, Saint Joan 萧伯纳的《圣女贞德》，一戏剧</li>
-<li>Susan Pedersen, Eleanor Rathbone and the Politics of Conscience 苏珊·佩德森的《埃利诺·拉斯伯恩以及良心政治》</li>
-<li>Sheila Weller, Girls Like Us 希拉·韦勒的《像我们这样的女孩》，全书记录了创作女歌手卡罗儿·金、琼尼·米歇尔、卡莉·西蒙的人生</li>
-</ul>
-</li>
-<li>法兰西组曲<ul>
-<li>Irène Némirovsky, Suite Française, translated by Sandra Smith 伊莱娜·内米洛夫斯基的《法兰西组曲》</li>
-<li>Mary Tileston, Daily Strength for Daily Needs 爱默生的《每日的力量》</li>
-</ul>
-</li>
-<li>芒果的滋味(母亲的化疗已经持续十八个月了)<ul>
-<li>Mariatu Kamara, The Bite of the Mango, with Susan 玛利亚涂·卡马拉的《芒果的滋味》，讲述了作者如何在性侵后努力活下去</li>
-</ul>
-</li>
-<li>刺猬的优雅<ul>
-<li>Muriel Barbery, The Elegance of the Hedgehog, translated by Alison Anderson 妙莉叶·芭贝里的《刺猬的优雅》，作者是一位哲学老师，1969年出生于卡萨布兰卡，目前定居日本</li>
-</ul>
-</li>
-<li>龙文身的女孩<ul>
-<li>Stieg Larsson, The Girl with the Dragon Tattoo, translated by Reg Keeland 斯蒂格·拉赫松的《龙文身的女孩》，这是一个发生在瑞典的悬念小说，描绘了一个深受诽谤打击的记者与一个年轻电脑女黑客之间的交集故事。作者拉赫松是一位致力改革、反对极端的瑞典记者，于2004年时死于心脏病，享年五十岁。他为世界留下了三部（或四部）未被出版的小说，《龙文身的女孩》是第一部。</li>
-</ul>
-</li>
-<li>布鲁克林<ul>
-<li>Colm Tóibín, Brooklyn 科尔姆·托宾的《布鲁克林》</li>
-</ul>
-</li>
-<li>父亲的眼泪<ul>
-<li>John Updike, My Father’s Tears 厄普代克的《父亲的眼泪》</li>
-<li>Victor LaValle, Big Machine 维克多·拉瓦列的《大机器》</li>
-</ul>
-</li>
-<li>太多的幸福（八月的最后一周，母亲去世）<ul>
-<li>Reynolds Price, Feasting the Heart 雷诺兹·普莱斯的《心灵盛筵》</li>
-<li>Alice Munro, Too Much Happiness 爱丽丝·门罗的《太多的幸福》</li>
-</ul>
-</li>
-<li>后记<ul>
-<li>N/A</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/03/25/IB-English-%20HL-On-writing-a-memoir-of-the-craft-Scribner-20200325/">IB English HL — On writing a memoir of the craft-Scribner (200325）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HLBook recommended
+On writing_ a memoir of the craft-Scribner##By King, Stephen 
+Author’s opinionsThere are no bad dogs, according to the title of a popular training manual, but don’t tell tha
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/" data-id="ckf5j200t0032dxw2031y2ac5" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1592387498/English/The_end_of_life_book_club_i1rxts.jpg)" alt="IB English HL — The End of Your Life Book club (200617）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/06/20/IB-Maths-SL- 4-new-IB-Mathematics-coursese -200620" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.771Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Maths/">Maths</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/">4 new IB Mathematics courses to choose from (200620)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.776Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​<br>​</p>
-<h3 id="4-new-IB-Mathematics-courses-to-choose-from"><a href="#4-new-IB-Mathematics-courses-to-choose-from" class="headerlink" title="4 new IB Mathematics courses to choose from"></a>4 new IB Mathematics courses to choose from</h3><p>Quoted from <a target="_blank" rel="noopener" href="https://www.revisionvillage.com/new-ib-maths-curriculum-information/">https://www.revisionvillage.com/new-ib-maths-curriculum-information/</a></p>
-<p>The IB Diploma Program (DP) mathematics curriculum changed in 2019 (first assessment in May 2021). See below for more details on these changes.</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1592667851/Maths/2021_May_Maths_yt7qqh.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1592667851/Maths/2020_May_Math_wjrlwe.jpg">​</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/06/17/IB-English-%20HL-The-End-of-Your-Life-Book-Club-2020617/">IB English HL — The End of Your Life Book club (200617）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HL
+&emsp;&emsp;
+
+生命最后的读书会（The End of Your Life Book club),威尔·施瓦尔贝,中国友谊出版公司:
+
+手记
+终得安全
+Wallace Stegner, Crossing to Safety 华莱士·斯特格纳的《终得安全》,它的作者生于二十世纪初，作品主要关于美国西部,这是一个关于两对夫妻——席德与查瑞提、拉里与萨莉之间终生不渝的友
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/" data-id="ckf5j200u0034dxw23m1e2oei" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1592667851/Maths/2021_May_Maths_yt7qqh.jpg)" alt="4 new IB Mathematics courses to choose from (200620)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/06/08/IB-Biology- HL-Guide-to-the-Chemistry-IA-20200608" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.768Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Biology/">Biology</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/">Guide to the Biology IA (200608)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Maths/">Maths</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.771Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Biology-HL"><a href="#Biology-HL" class="headerlink" title="Biology HL"></a>Biology HL</h3><p>Quote from “iacreator.com”<br>​<br>​<img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1591631467/Biology/biology_IA_wudqcl.jpg"></p>
-<p>##Guide to the Biology IA<br>No matter if you are a Standard or Higher Level IB Biology student, many struggle with the broad nature of this seminal part of the IB Biology curriculum. The open-ended structure of the assignment can often overwhelm both students and teachers. Many of you may be grappling with questions like:</p>
-<p>Where do I look for IB Biology IA ideas?<br>What makes an IB Biology IA a 7?<br>How novel does my IA idea have to be?<br>What IB Biology topic is easiest to write an IA on?<br>&amp; Much more</p>
-<p>I have taken note of the questions and issues my students have experienced the most trouble with during their Biology IA, in order to develop a guide based on the advice that I have provided to my students in my years of teaching. This guide will clearly answer the above questions and more while explaining how to develop a focused research question as well as the steps behind creating an experimental method before ending with advice on how to finish with a strong conclusion that meets all of the relevant IA criteria; ensuring students achieve the best possible result on what constitutes 20% of their final IB Biology grade.##</p>
-<p>##Part 1: Key Takeaways<br>##Part 2: Creating a Research Question that you can Actually Investigate<br>##Part 3: Creating an Experimental Method for your Biology IA<br>##Part 4: Analyzing Your Data to Make a Solid Conclusion</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/06/20/IB-Maths-SL-%204-new-IB-Mathematics-coursese%20-200620/">4 new IB Mathematics courses to choose from (200620)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            ​​
+4 new IB Mathematics courses to choose fromQuoted from https://www.revisionvillage.com/new-ib-maths-curriculum-information/
+The IB Diploma Program (DP) mathematics curriculum changed in 2019 (first
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/" data-id="ckf5j200s002ydxw2b6u796of" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1591631467/Biology/biology_IA_wudqcl.jpg)" alt="Guide to the Biology IA (200608)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.766Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/">Guide to the Chemistry IA （200608）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Biology/">Biology</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.768Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><p>Quote from “iacreator.com”</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1591631411/Chemistry/chemistry_IA_j7qigh.jpg"></p>
-<p>##Guide to the Chemistry IA</p>
-<p>Working with IB students for over 20 years, I have witnessed stress and anxiety consume student’s during their Chemistry Internal Assessments. Often, the IA combined with tests, papers, TOK presentations, can feel like the extra bit of water needed to turn a large tidal wave into an insurmountable tsunami wave.</p>
-<p>That’s why the best medicine for IA related stress is to be aware of how to write the Chemistry internal assessment in as efficient process as possible. This guide represents the totality of the advice that I have given my own IB Science students when they begin this journey. By the end of this guide, you will have found the direction necessary to move forward, and write a strong IA, as well as answering some of the questions that might be occupying your mind right now:</p>
-<ul>
-<li>How do I even choose a topic for my Chemistry IA?</li>
-<li>Why is there so much emphasis on a “focused research” question?</li>
-<li>In what way do I create a procedure for this investigation I will attempt?</li>
-<li>What Rubric and Guidelines should I follow for my Chemistry IA?</li>
-<li>What is the difference between the analysis and conclusion in an IA?</li>
-<li>What layout should I use for my Chemistry IA?</li>
-</ul>
-<p>##Part 1: Key Takeaways<br>##Part 2: Formulating a Specific Research Question<br>##Part 3: Creating a methodology for your investigation<br>##Part 4: Analysis &amp; Evaluation of your Chemistry IA</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/06/08/IB-Biology-%20HL-Guide-to-the-Chemistry-IA-20200608/">Guide to the Biology IA (200608)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Biology HLQuote from “iacreator.com”​​
+##Guide to the Biology IANo matter if you are a Standard or Higher Level IB Biology student, many struggle with the broad nature of this seminal part of the IB B
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/" data-id="ckf5j200t0030dxw25h3604dx" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1591631411/Chemistry/chemistry_IA_j7qigh.jpg)" alt="Guide to the Chemistry IA （200608）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/04/23/IB-Admission-THE-Impact-Rankings-200423" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.760Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/">IB Admission —— THE Impact Rankings 2020 (200423)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.766Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​</p>
-<h3 id="Admission"><a href="#Admission" class="headerlink" title="Admission"></a>Admission</h3><p>​<br>THE公佈2020最新世界大學排名。本次排名展示大学对地球产生的积极的社会和经济影响的程度：从气候行动、性别平等，到良好的健康和福祉。这是在大学排名首次采用这一标准，<strong>而不是采用声誉和研究声望等传统指标</strong></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1587656131/Admission/THE_impact_rankings2020_sj8hnw.jpg"><br>​</p>
-<p>**本次排名的依据参照全球大学在履行联合国17项「可持续发展目标（SDGs）」的表现。较去年多出6项目标，与贫穷、饥饿、清洁用水及能源等相关。</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1587656570/Admission/THE_impact_rankings2020_2_lrv7ka.jpg"></p>
-<p>本次排名中，<strong>同济大学是中国大陆第一所排名进入世界前100名的大学，首次参加排名就在全球766所高校中获得第13名</strong></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1587656748/Admission/THE_impact_rankings2020_3_bwnrzz.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1587656865/Admission/THE_impact_rankings2020_4_tkhsae.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1587656865/Admission/THE_impact_rankings2020_5_mm6sxu.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/06/08/IB-Chemistry-SL-Guide-to-the-Chemistry-IA-20200608/">Guide to the Chemistry IA （200608）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLQuote from “iacreator.com”
+
+##Guide to the Chemistry IA
+Working with IB students for over 20 years, I have witnessed stress and anxiety consume student’s during their Chemistry Internal As
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/" data-id="ckf5j2006001zdxw26jlnehlh" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1587656131/Admission/THE_impact_rankings2020_sj8hnw.jpg)" alt="IB Admission —— THE Impact Rankings 2020 (200423)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/04/13/IB-English- HL-Free-Resources-on-MUSE-20200413" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.755Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/">IB English HL — Free Resources on MUSE During COVID-19 (200413）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.760Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="English-HL"><a href="#English-HL" class="headerlink" title="English HL"></a>English HL</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1586792739/English/MUSE_ltdvtp.jpg"></p>
-<p><strong><em>Free Resources on MUSE During COVID-19</em></strong></p>
-<p>Quoted from <a target="_blank" rel="noopener" href="https://about.muse.jhu.edu/resources/freeresourcescovid19/">https://about.muse.jhu.edu/resources/freeresourcescovid19/</a></p>
-<p>In response to the challenges created by the global public health crisis of COVID-19, Project MUSE is pleased to support its participating publishers in making scholarly content temporarily available for free on our platform. With many higher education institutions moving into an exclusively online learning environment for the foreseeable future, we hope that easy access to vetted research in the humanities and social sciences, from a variety of distinguished university presses, societies, and related not-for-profit publishers, will help to support teaching, learning, and knowledge discovery for users worldwide.</p>
-<p><strong>For example:</strong></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1586793133/English/MUSE_2_qwibvr.jpg"></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1586793248/English/MUSE_3_npkiqq.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/04/23/IB-Admission-THE-Impact-Rankings-200423/">IB Admission —— THE Impact Rankings 2020 (200423)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            ​
+Admission​THE公佈2020最新世界大學排名。本次排名展示大学对地球产生的积极的社会和经济影响的程度：从气候行动、性别平等，到良好的健康和福祉。这是在大学排名首次采用这一标准，而不是采用声誉和研究声望等传统指标
+​
+**本次排名的依据参照全球大学在履行联合国17项「可持续发展目标（SDGs）」的表现。较去年多出6项目标，与贫穷、饥饿、清洁用水及能源等相关。
+
+本次排名中，同济大学是中
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/" data-id="ckf5j2000001pdxw25aam8nux" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1586792739/English/MUSE_ltdvtp.jpg)" alt="IB English HL — Free Resources on MUSE During COVID-19 (200413）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/04/15/IB-Others- IB-Extended-Essay -20200415" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.751Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Others/">Others</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/">IB Others — The IB Extended Essay-Managing your Research Project (200415）</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/English/">English</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.755Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Welcome-to-The-IB-Extended-Essay-Managing-your-research-project"><a href="#Welcome-to-The-IB-Extended-Essay-Managing-your-research-project" class="headerlink" title="Welcome to The IB Extended Essay: Managing your research project"></a>Welcome to The IB Extended Essay: Managing your research project</h3><p>Quoted from <a target="_blank" rel="noopener" href="https://www.futurelearn.com/courses/ib-extended-essay/8/welcome">https://www.futurelearn.com/courses/ib-extended-essay/8/welcome</a></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1586964910/Others/IB_Extended_Essay_mswkov.jpg"></p>
-<p>In this course you will be shown how to complete each step of your extended essay, from choosing a topic and essay title through to planning and writing it effectively. A series of articles, videos and tasks will help you to research and write your extended essay. In addition you will develop skills you can use now, and in future studies.</p>
-<p>This course is just one of a series designed by the University of Leeds for school-based learners. This course has been specifically designed to help those studying an International Baccalaureate (IB) curriculum at school or college, and in particular those undertaking the extended essay part of their IB Diploma Programme. As you will have seen from the welcome area, a diverse cohort have signed up.</p>
-<p>A lot of the skills required to research and plan an extended essay are similar to those needed when studying at degree level and beyond, so we’ve designed this course to help you develop these study skills.</p>
-<p>This map provides a quick overview of the two weeks ahead. You can also view the learning outcomes and syllabus for this course or download them from the section at the bottom of this step.</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1586965361/Others/IB_Extended_Essay_2_kpcvmn.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/04/13/IB-English-%20HL-Free-Resources-on-MUSE-20200413/">IB English HL — Free Resources on MUSE During COVID-19 (200413）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            English HL
+Free Resources on MUSE During COVID-19
+Quoted from https://about.muse.jhu.edu/resources/freeresourcescovid19/
+In response to the challenges created by the global public health crisis of COV
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/" data-id="ckf5j2005001xdxw20xmo2339" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1586964910/Others/IB_Extended_Essay_mswkov.jpg)" alt="IB Others — The IB Extended Essay-Managing your Research Project (200415）" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.739Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/">IB Admission —— What My College Essays Were NOT (200219)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Others/">Others</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.751Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​<br>​</p>
-<h3 id="Admission"><a href="#Admission" class="headerlink" title="Admission"></a>Admission</h3><p>​</p>
-<h3 id="What-My-College-Essays-Were-NOT"><a href="#What-My-College-Essays-Were-NOT" class="headerlink" title="What My College Essays Were NOT"></a>What My College Essays Were NOT</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg"></p>
-<p>​<br>Quoted from  <a target="_blank" rel="noopener" href="https://mitadmissions.org/blogs/entry/what-my-college-essays-were-not/">https://mitadmissions.org/blogs/entry/what-my-college-essays-were-not/</a> </p>
-<h3 id="Author’s-opinions"><a href="#Author’s-opinions" class="headerlink" title="Author’s opinions"></a>Author’s opinions</h3><p>During my college application season, the adults around me (in addition to books like 50 Successful Harvard Application Essays, which I would not recommend reading) gave a lot of advice that sounded like this: “Show the admissions committee who you are!”, “Be passionate!”, “Don’t worry so much! You’ll be happy wherever you end up!”, and so on.</p>
-<p>Okay—I mean, these tips certainly make a lot of sense in hindsight, but they didn’t help me at all when I was actually writing my essays. If you are applying to college now, you probably know what I mean.</p>
-<p>I remember being extremely stressed out by cutthroat competition and judgment from high-achieving peers. I did not have a unifying passion, just a handful of scattered interests, a strong work ethic, and a busy life (kind of like now, ha). When I expressed concerns about my essays, my parents literally said to me, “your SAT score is high and you are a good writer so you will probably be fine.” Man, I love my parents, but this was neither helpful nor encouraging1.</p>
-<p>In lieu of repeating clichés or telling you that you will probably be fine, I’ll say a few concrete things about my essays. These facts about my essays are not advice, or even guidelines. I can only tell you what I did; your mileage may vary. I will also try to offer general advice. I hope some of it is helpful.</p>
-<p><strong>My essays were important. My essays were not related to my “stats.”</strong><br>You have your GPA, your SAT/ACT scores, etc.—you can’t do anything about those, so please try not to worry about them (i.e. promise me that you will stay off of College Confidential). Also, and this really goes without saying: if you feel that you have to misrepresent the truth dramatically in order to convince an admissions committee that you are a good fit for their school, you should reevaluate your approach2.</p>
-<p>A big variable that still remains under your control is your essays.</p>
-<p>What’s important in an essay? Well, I’m not on any admissions committee, so I can only speculate. Fortunately, to make your life easier, MIT published a page about what it values. Focus your application on some of these points. Or at least keep them in mind.</p>
-<p>But there is no checklist for an essay. An essay should not serve as proof that you have some list of qualities and are therefore a perfect applicant—you are not, and you do not need to be. Rather, essays can shed light on how you think about the world and how you grapple with obstacles3.</p>
-<p>Remember that you are applying to be part of a student body, not just an academic community. Wherever you are applying: you are applying not only to take classes and do work there, but also to eat and sleep and socialize and grow and cry there for the next four-ish years. Don’t ever assume your numerical scores and lists of activities will speak for themselves—you have much, much more to offer than that. So flaunt it.</p>
-<p><strong>My essays were about how I spent time. My essays did not use the word “passion.”</strong><br>On the content of essays: someone has probably said to you, “Write about your passions.” So you try to do exactly that. But it’s hard to go into college admissions knowing exactly what your passions are, especially because grade school tends to prevent intense pursuit of a single passion. It is not as simple as “finding what you love to do” because such loves generally are not just sitting around waiting to be discovered4.</p>
-<p>Often, you have to struggle really hard with something before you are good enough at it to really love it, but then the feelings of <del>*</del>passion<del>*</del> might be gone. Is it passion if you are still in the middle of the struggle and kind of hate it? Is it passion if you’ve been doing it for so long it’s like a reflex and you no longer actively feel excited about it (like math, for me)?5</p>
-<p>People throw around the word “passion” a lot, but passion is just an emotional reaction (an ill-defined one, at that), and emotions are unreliable.6 A better guideline: write about what you’ve spent a lot of time on.</p>
-<p>Start by looking at what you’ve spent the most time on, then figure out which activities you particularly enjoyed, and then remember how you became interested in those activities and detail why they are important to you. You can also see what unifying themes (potential passions?) these activities share.</p>
-<p>Students applying to college often think they need to write a poignant story about a lifelong passion for their field of interest and fit all their extracurricular activities into this common theme. Otherwise, people say, “the admissions committee might think you were just trying to pad your application with random, impressive-sounding extracurriculars!”</p>
-<p>But come on, you are still a teenager; it is okay to have explored and changed course. It is okay to have been in the school orchestra for two years and then dropped it because you realized you didn’t want to play the violin anymore and wanted to focus on other interests. (I did this.) It is okay to still include it on your application. (I did this, too.) Dropping an activity doesn’t mean you are a flaky, useless person, and including it doesn’t mean you are a liar obsessed with impressing colleges. (I remember classmates being judgmental about this kind of thing, and these are real thoughts I had when filling out my application…yikes.)</p>
-<p>Be genuine, be honest, and do not worry if you have not been interested in the same thing since the age of three. Do not worry if you do not have a single defining experience that shaped every single goal you had afterwards. No one’s life story is that neat.</p>
-<p><strong>My essays were restrained. My essays were not overly confessional.</strong><br>Nonetheless, remember that any application process is a process of persuasion. The college application process just happens to be a lot more soul-baring and personal than most.</p>
-<p>It can be a taboo to mention impressing an admissions committee, but it is also idealistic to say “Just be yourself and you will end up exactly where you need to be.” Yes, you should be yourself, but not in a completely uncontrolled way. It is necessary to consider the values of different schools and demonstrate that your personal history aligns with those values. Try to be convincing. If you’re unable to be convincing without lying, you are applying to the wrong school or using the wrong approach.</p>
-<p>Be picky about the anecdotes and details you include. There is more than one way to tell a story. There is more than one story you can choose to tell. Choose carefully! (On the other hand, in any case, there is more than one story that can work well, so it’s not as though you’re doomed if you don’t pick the perfect one.)</p>
-<p>I wrote two essays for the Common Application. The first essay was supposed to be a standard personal growth story. An exaggerated telling of a single night’s events, it came out sounding self-pitying and cloying. I spent about a month trying to rework it into something that represented me better, but I eventually threw it out and wrote an entirely different one. The second essay was weird. It was like…a listicle about Mihaly Csikszentmihalyi7, written by a Joan Didion fanatic. But it was also sincere and revealing, and I loved it, especially after having it proofread and revising it many times. When December came around, I submitted it. I was not completely successful with college admissions, but I have no regrets about that essay.</p>
-<p>If you have a specific essay that makes you say, “This essay is awful, and if I don’t get in, I am going to regret not working harder on this essay”…work on that essay first, instead of the ones you already like. Even if you don’t want to look at it. Please.</p>
-<p>(Also, don’t feel pressure to write an unconventional essay solely for the sake of standing out! My Common App essay just happened to come out that way, probably because I make a lot of lists.)</p>
-<p><strong>My essays were focused. My essays were not my entire life story.</strong><br>Remember that there is no way you’ll be able to fit your entire life story into your application.</p>
-<p>Sometimes people make exaggerated generalizations to fit more content into less space. If this sounds like you, and you’re struggling, perhaps try to decrease your scope and write a sharper, more specific essay? (This is possibly a matter of personal taste, though…8)</p>
-<p>When you’re caught in your own writing, it can be hard to part with distracting details. But cutting out content often makes an argument/essay stronger. If you struggle with making your essays fit word limits, it can be very helpful to get a second opinion (from someone who you think writes well) about which details are important.</p>
-<p>In the vein of what I said about not writing an unconventional essay just for the sake of standing out: don’t include details without purpose! When I was revising my friends’ essays, I constantly asked, “Why is this sentence here? What does it illustrate about you/your life/this story? What is the point of your essay, and how does this sentence move you towards your point?” If a detail doesn’t have a clear reason for being in your essay, take it out or change it. Be concise. 500 words is not a lot.</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/04/15/IB-Others-%20IB-Extended-Essay%20-20200415/">IB Others — The IB Extended Essay-Managing your Research Project (200415）</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Welcome to The IB Extended Essay: Managing your research projectQuoted from https://www.futurelearn.com/courses/ib-extended-essay/8/welcome
+
+In this course you will be shown how to complete each step 
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/" data-id="ckf5j2003001tdxw24nn36euv" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
-
-
-  
-
-
-  <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/2/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/4/">Next &amp;raquo;</a>
-  </nav>
 
-</section>
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
         
-          <aside id="sidebar">
-  
+        <a href="/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/" class="thumbnail">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a></li></ul>
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg)" alt="IB Admission —— What My College Essays Were NOT (200219)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/">0</span>
+    
+</span>
+
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.739Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2020/02/19/IB-Admission-What-My-College-Essay-Were-Not-200219/">IB Admission —— What My College Essays Were NOT (200219)</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            ​​
+Admission​
+What My College Essays Were NOT
+​Quoted from  https://mitadmissions.org/blogs/entry/what-my-college-essays-were-not/ 
+Author’s opinionsDuring my college application season, the adults ar
+        </p>
     </div>
-  </div>
-
-
-  
+</article>
+    
+        </div>
     
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li></ul>
+
+    </div></section>
+
+
+    <nav id="page-nav">
+        <span class="pages">Page 3 of 10</span>
+        <a class="extend prev" rel="prev" href="/page/2/">&laquo;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/4/">&raquo;</a>
+    </nav>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
     </div>
-  </div>
-
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+    <div class="widgets-container">
         
-          <li>
-            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/">IB Others —— SAT Policies for Popular Colleges(200916)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/">IB Admission —— IB score unexpected (200708)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/">IB Others —— May 2020 Awarding (200715)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/">IB Admission —— Justice for May 2020 IB Graduates (200709)</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+            
+                
 
-  
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1600267931/Others/SAT_policies_fuladu.png)" alt="IB Others —— SAT Policies for Popular Colleges(200916)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="title">IB Others —— SAT Policies for Popular Colleges(200916)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:15:28.818Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594223509/Admission/IB_score_m1ok05.jpg)" alt="IB Admission —— IB score unexpected (200708)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="title">IB Admission —— IB score unexpected (200708)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.858Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594828053/Others/2020_awarding_korejy.jpg)" alt="IB Others —— May 2020 Awarding (200715)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="title">IB Others —— May 2020 Awarding (200715)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.853Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594049585/Admission/ib_course_equivalence_v3ccya.jpg)" alt="IB Admission —— BU&#39;s ib_course_equivalence (200706)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="title">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.849Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594309755/Admission/Justice_for_May_2020_IB_Graduates_wju8gd.jpg)" alt="IB Admission —— Justice for May 2020 IB Graduates (200709)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="title">IB Admission —— Justice for May 2020 IB Graduates (200709)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.845Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">23</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a><span class="category-list-count">10</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a><span class="archive-list-count">91</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2020 John Doe</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
 
-<script src="/js/script.js"></script>
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
 
 
 
+<!-- Custom Scripts -->
 
-  </div>
+<script src="/js/main.js"></script>
+
+
 </body>
 </html>

@@ -1,751 +1,999 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="utf-8" />
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+    
+
+    
+    <title>Hexo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/page/9/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
+    
+
+    
+        <link rel="alternate" href="/" title="Hexo" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
 <link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
 
 <meta name="generator" content="Hexo 5.1.1"></head>
 
 <body>
-  <div id="container">
     <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Admission/">Admission</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Biology/">Biology</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Business/">Business</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Chinese/">Chinese</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/English/">English</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Maths/">Maths</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Others/">Others</a></li></ul>
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-2019/09/17/IB Chemistry SL — Nuclear Atom (190917)" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.566Z" itemprop="datePublished">2020-09-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
     
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/">IB Chemistry SL — Nuclear Atom （190917）关于化学里如何计算分子/原子量等等</a>
+    <em class="page-title-link" data-url="home">Home</em>
     </h1>
-  
+</div>
 
-      </header>
+                        <div class="main-body-content">
+                            
+
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Nuclear-Atom"><a href="#The-Nuclear-Atom" class="headerlink" title="The Nuclear Atom"></a>The Nuclear Atom</h3><h3 id="Quick-question"><a href="#Quick-question" class="headerlink" title="Quick question"></a>Quick question</h3><p>Quote from Oxford IB Chemistry Course Book (p. 39):</p>
-<h3 id="Q1：-Deduce-the-ratio-of-the-mass-of-oxygen-per-gram-of-sulfur-in-the-compounds-sulfur-dioxide-SO2-g-and-sulfur-trioxide-SO3-g"><a href="#Q1：-Deduce-the-ratio-of-the-mass-of-oxygen-per-gram-of-sulfur-in-the-compounds-sulfur-dioxide-SO2-g-and-sulfur-trioxide-SO3-g" class="headerlink" title="Q1： Deduce the ratio of the mass of oxygen per gram of sulfur in the compounds sulfur dioxide, SO2(g), and sulfur trioxide,SO3(g)."></a>Q1： Deduce the ratio of the mass of oxygen per gram of sulfur in the compounds sulfur dioxide, SO2(g), and sulfur trioxide,SO3(g).</h3><p><strong>Hint 1</strong></p>
-<p>目的是对比 两个化合物 （SO2 或 SO3） 中都有的一项元素 (O) 的 mass 比率( the ratio of the mass), , 所以先要知道mass 比率怎么计算。</p>
-<p><strong>Hint 2</strong></p>
-<p>关于什么是mass比率，可以用以下例子理解：<br>考虑测量碳和氧形成两种化合物一氧化碳,CO（g）和二氧化碳，CO 2（g）。一个实验可以测量3克碳与之结合4克氧气形成一氧化碳，而3克碳与8克氧气结合形成二氧化碳。</p>
-<p>在这里，碳和氧以不同的比例组合以组合出不同的化合物：</p>
-<p>CO（g）：C：O比= 3：4</p>
-<p>CO 2（g）：C：O比= 3：8</p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><blockquote>
-<p>Both sulfur dioxide, SO2 (g), and sulfur trioxide, SO3 (g) are acidic oxides (酸性氧化物) with sulfur having a different oxidation numbers</p>
-</blockquote>
-<p>接下来是计算示例：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>SO2</th>
-<th></th>
-<th>SO3</th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td>S</td>
-<td>O</td>
-<td>S</td>
-<td>O</td>
-</tr>
-<tr>
-<td>Ar</td>
-<td>32.07</td>
-<td>16.00</td>
-<td>32.07</td>
-<td>16.00</td>
-</tr>
-<tr>
-<td>Combined mass of individual atoms</td>
-<td>32.07</td>
-<td>(16.00 × 2) = 32.00</td>
-<td>32.07</td>
-<td>(16.00 × 4)= 48.00</td>
-</tr>
-<tr>
-<td>Calculate ratio</td>
-<td>32.07/ 32.07 = 1.000</td>
-<td>32.00/32.07 = 0.9978</td>
-<td>32.07/ 32.07 = 1.000</td>
-<td>48.00 /32.07 =1.497</td>
-</tr>
-<tr>
-<td>Ratio of the mass of oxygen per gram of sulfur</td>
-<td></td>
-<td>0.9978: 1.000 (Simplified)  1:1</td>
-<td></td>
-<td>1.497: 1.000 (Simplified) 1.5:1</td>
-</tr>
-</tbody></table>
-<p>Note, In chemistry, the <strong>formula weight</strong> is a quantity computed by multiplying <strong>the atomic weight (in atomic mass units)</strong> of each element in a chemical formula by <strong>the number of atoms of that element</strong> present in the formula, then adding all of these products together</p>
-<p><strong>化学里的“重量计算”</strong>， 其实是计算分子式里的每个元素的 “原子重量“， 找出每个元素的atomic mass unit， 然后乘以元素的原子个数得出。比如SO2, 就是一个硫两个氧的 总共atomic mass, 就是32.07+ 16.00*2,， 而每个元素的atomic mass unit 都可以在元素周期表里找到</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/" data-id="ckf5j200w003adxw23dff7sg3" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+    
+        
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2020" class="archive-year"><i class="icon fa fa-calendar-o"></i>2020</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Nuclear Atom （190917）关于化学里如何计算分子/原子量等等" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/15/IB Chemistry SL — Stoichiometric （190915)" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.561Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/">IB Chemistry SL — Stoichiometric（190915）关于水蒸气、开水温度、感觉凉爽与否等等</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.566Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="IB-Chemistry-SL"><a href="#IB-Chemistry-SL" class="headerlink" title="IB Chemistry SL"></a>IB Chemistry SL</h2><h3 id="Stoichiometric-relationships"><a href="#Stoichiometric-relationships" class="headerlink" title="Stoichiometric relationships"></a>Stoichiometric relationships</h3><h2 id="Activity-answers"><a href="#Activity-answers" class="headerlink" title="Activity answers"></a>Activity answers</h2><h3 id="Q1：-Explain-why-the-temperature-of-a-boiling-liquid-does-not-increase-despite-energy-being-constantly-applied"><a href="#Q1：-Explain-why-the-temperature-of-a-boiling-liquid-does-not-increase-despite-energy-being-constantly-applied" class="headerlink" title="Q1： Explain why the temperature of a boiling liquid does not increase despite energy being constantly applied"></a>Q1： Explain why the temperature of a boiling liquid does not increase despite energy being constantly applied</h3><p><strong>Hint 1</strong></p>
-<p><a target="_blank" rel="noopener" href="https://www.chemistryscore.com/intermolecular-forces/">Intermolecular attractions</a></p>
-<p>与分子间的吸引力变强或变弱有关</p>
-<p><strong>Hint 2</strong></p>
-<p>At high temperature the particles of a liquid move more quickly and the distances between the particles increase. <strong>Intermolecular attractions</strong> become less significant and eventually the liquid become gas</p>
-<p>温度越高，分子间的吸引力就越弱，慢慢液体变气体</p>
-<h3 id="A1"><a href="#A1" class="headerlink" title="A1:"></a>A1:</h3><blockquote>
-<p>Energy provided to the system is being used to break down the intermolecular hydrogen bonds between the H2O molecules</p>
-</blockquote>
-<h3 id="Q2：-Deduce-which-would-be-more-painful-scalding-your-skin-with-water-vapour-or-boiling-water"><a href="#Q2：-Deduce-which-would-be-more-painful-scalding-your-skin-with-water-vapour-or-boiling-water" class="headerlink" title="Q2： Deduce which would be more painful, scalding your skin with water vapour or boiling water"></a>Q2： Deduce which would be more painful, scalding your skin with water vapour or boiling water</h3><p>粗看是开水 vs 蒸汽谁更烫的问题？但其实问题是谁的伤害更大，注意这里有一个可能认识不清的小常识错误</p>
-<p><strong>Hint 1</strong></p>
-<p>Cooling brings about the reverse processes to heating – the <strong>condensation</strong> of <strong>water vapour</strong> to form liquid water, and the freezing of liquid water to form a solid</p>
-<p>注意，这里的凝结condensation，严格意义上是指从气体到液体。冷冻freezing， 是指从液体到固体</p>
-<p><strong>Hint 2</strong></p>
-<p>If you heat a block of ice in a beaker it will melt to form liquid water. If you continue heating the water, it will boil to form <strong>water vapour</strong>.</p>
-<h3 id="A2"><a href="#A2" class="headerlink" title="A2:"></a>A2:</h3><blockquote>
-<p>Water vapour results in more painful burns to the skin; boiling water and water vapour both have a temperature of 100°C; vaporisation is an endothermic process; condensation of water vapour on the skin is an exothermic process</p>
-</blockquote>
-<p>注意，烧开的水和蒸汽都是100摄氏度。蒸汽烫伤更严重，是因为蒸汽在皮肤上凝结condensation的过程是一个放热exothermic 的过程 (与之相对的，叫吸热endothermic 的过程，在开水变成蒸汽的时候）</p>
-<h3 id="Q3：-Explain-why-you-might-feel-cold-and-shiver-when-you-get-out-of-the-water-at-the-beach-on-a-very-hot-windy-day"><a href="#Q3：-Explain-why-you-might-feel-cold-and-shiver-when-you-get-out-of-the-water-at-the-beach-on-a-very-hot-windy-day" class="headerlink" title="Q3： Explain why you might feel cold and shiver when you get out of the water at the beach on a very hot, windy day.."></a>Q3： Explain why you might feel cold and shiver when you get out of the water at the beach on a very hot, windy day..</h3><p><strong>Hint 1</strong></p>
-<p><a target="_blank" rel="noopener" href="https://cn.bing.com/images/search?view=detailV2&ccid=IOyhq4HS&id=2DE547618688E37C73AF20B1806874C3121AC19D&thid=OIP.IOyhq4HSnGhU5jz7sDDJngHaHa&mediaurl=http://cdn.shopify.com/s/files/1/0877/6914/files/OC0811004_Evaporation.gif?3584476402907486321&exph=350&expw=350&q=evaporatoin&simid=608039618745926816&selectedIndex=10&ajaxhist=0">Evaporatoin</a></p>
-<h3 id="A3"><a href="#A3" class="headerlink" title="A3:"></a>A3:</h3><blockquote>
-<p>The heat from the sun and warm air passing over the body increases the rate of evaporation from the skin; evaporation is an endothermic process; water molecules leaving the surface of the skin results in a loss of energy from the skin; the response of the human body is to shiver</p>
-</blockquote>
-<p>有意思的是太阳或周遭的热空气蒸发了皮肤上的水分，所以你会觉得凉，这个和一般认为的太阳出来就暖和，热风一吹就不冷，真还有点认识上的区别</p>
-<p><img src="https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/17/IB%20Chemistry%20SL%20%E2%80%94%20Nuclear%20Atom%20(190917)/">IB Chemistry SL — Nuclear Atom （190917）关于化学里如何计算分子/原子量等等</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Nuclear AtomQuick questionQuote from Oxford IB Chemistry Course Book (p. 39):
+Q1： Deduce the ratio of the mass of oxygen per gram of sulfur in the compounds sulfur dioxide, SO2(g), and
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/" data-id="ckf5j200v0036dxw22cb77c2w" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)" alt="IB Chemistry SL — Stoichiometric（190915）关于水蒸气、开水温度、感觉凉爽与否等等" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/25/IB-Admission-Essay-190925" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/25/IB-Admission-Essay-190925/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.557Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/25/IB-Admission-Essay-190925/">Essay targeted for UC 的 好与坏辨识（2/6） (190925)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.561Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​<br>​</p>
-<h3 id="Admission"><a href="#Admission" class="headerlink" title="Admission"></a>Admission</h3><p>​</p>
-<h3 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h3><p>​<br><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg"><br>​<br>​<br>​</p>
-<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p>​<br><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569403889/Admission/leadship_Case_2_p4v3to.jpg"><br>​<br>​</p>
-<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569403890/Admission/leadship_Case_2_2_j7pnb8.jpg"><br>​<br>​<br>优点是，有例子，具体化<br>​</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/15/IB%20Chemistry%20SL%20%E2%80%94%20Stoichiometric%20%EF%BC%88190915)/">IB Chemistry SL — Stoichiometric（190915）关于水蒸气、开水温度、感觉凉爽与否等等</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            IB Chemistry SLStoichiometric relationshipsActivity answersQ1： Explain why the temperature of a boiling liquid does not increase despite energy being constantly appliedHint 1
+Intermolecular attraction
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/25/IB-Admission-Essay-190925/" data-id="ckf5j20150040dxw2c7ncapm1" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/25/IB-Admission-Essay-190925/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg)" alt="Essay targeted for UC 的 好与坏辨识（2/6） (190925)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/25/IB-Admission-Essay-190925/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/25/IB-Maths-SL-IA-190925" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.555Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Maths/">Maths</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/">Again, can you come up with more Maths SL IA ideas? (190925)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.557Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Maths-SL"><a href="#Maths-SL" class="headerlink" title="Maths SL"></a>Maths SL</h3><h3 id="Exploration-IA）-Ideas"><a href="#Exploration-IA）-Ideas" class="headerlink" title="Exploration (IA） Ideas"></a>Exploration (IA） Ideas</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg"></p>
-<p>It’s crucial in the first two stages -<strong>the introduction/preparation stage, and the topic choice stage</strong> when students need to be guided to complete their IA.</p>
-<p>There are some effective activities for students to do during <strong>intro/pre stage</strong></p>
-<blockquote>
-<p>read short articles that are examples of good writing about a mathematical topic at a suitable level for Maths SL and/or Maths HL</p>
-</blockquote>
-<blockquote>
-<p>read past student Explorations - preferably with some information on how well the Exploration addressed the assessment criteria.</p>
-</blockquote>
-<p>Following are examples during intro/pre stage.</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569413131/Maths/IA_exploration_intro_example_4_dotonf.jpg"></p>
-<h2 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1"></a>Example 1</h2><p><a target="_blank" rel="noopener" href="https://www.parabola.unsw.edu.au/files/articles/2000-2009/volume-37-2001/issue-1/vol37_no1_3.pdf">https://www.parabola.unsw.edu.au/files/articles/2000-2009/volume-37-2001/issue-1/vol37_no1_3.pdf</a></p>
-<h2 id="Example-2"><a href="#Example-2" class="headerlink" title="Example 2"></a>Example 2</h2><p><a target="_blank" rel="noopener" href="http://cms.math.ca/crux/v31/n7/page453-456.pdf">http://cms.math.ca/crux/v31/n7/page453-456.pdf</a></p>
-<h2 id="Example-3"><a href="#Example-3" class="headerlink" title="Example 3"></a>Example 3</h2><p><a target="_blank" rel="noopener" href="http://wesclark.com/rrr/rugby_and_math.pdf">http://wesclark.com/rrr/rugby_and_math.pdf</a></p>
-<h2 id="Example-4"><a href="#Example-4" class="headerlink" title="Example 4"></a>Example 4</h2><p><a target="_blank" rel="noopener" href="https://education.ti.com/images/online_courses/t3/calculus2/mod28/568-74_nov.pdf">https://education.ti.com/images/online_courses/t3/calculus2/mod28/568-74_nov.pdf</a></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/25/IB-Admission-Essay-190925/">Essay targeted for UC 的 好与坏辨识（2/6） (190925)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            ​​
+Admission​
+Essay​​​​
+原文​​​
+评价​​优点是，有例子，具体化​
+
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/" data-id="ckf5j20160042dxw2gfas7y3p" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg)" alt="Again, can you come up with more Maths SL IA ideas? (190925)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/29/IB-Maths-SL-IA-2-190929" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.550Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Maths/">Maths</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/">Maths SL IA —— Can &#34;the movement of dogs&#34; be my IA report? (190929)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Maths/">Maths</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.555Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Maths-SL"><a href="#Maths-SL" class="headerlink" title="Maths SL"></a>Maths SL</h3><h3 id="Exploration-IA"><a href="#Exploration-IA" class="headerlink" title="Exploration (IA)"></a>Exploration (IA)</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg"></p>
-<p>Quoted from reddit “Is my maths ia (hl) topic too simple?”</p>
-<h2 id="I-really-struggled-to-find-a-good-IA-question-but-the-general-idea-is-“the-movement-motion-of-dogs”"><a href="#I-really-struggled-to-find-a-good-IA-question-but-the-general-idea-is-“the-movement-motion-of-dogs”" class="headerlink" title="I really struggled to find a good IA question but the general idea is “the movement, motion of dogs”."></a>I really struggled to find a good IA question but the general idea is “the movement, motion of dogs”.</h2><p>I really struggled to find a good IA question and so in the end, i had to quickly go over some simply steps with my teacher to come to the conclusion that it’d be better to stick to what i was interested in, dogs, at the very least to get somewhere with the ia.</p>
-<p>I still need to narrow the question down a bit more but the general idea is “the movement, motion of dogs”. Basically i’m trying to analyze the movement of dogs when the run and possible compare it to that of a cheetah(猎豹）? Well, i don’t know…</p>
-<p>I need to look more into it but i think the main thing that i will be doing it graphing a model of their leg position as they run and get the derivatives to find simple things..</p>
-<h2 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h2><p>Well, if you want to do that topic, it’s not simple.</p>
-<p><strong>Data collection is very important for your IA topic.</strong></p>
-<p>Analysis of dog movement in a recorded camera is kind of a painful procedure (I have no clue about cheetahs, but I guess you can get it off the internet).</p>
-<p>Don’t make it general nor make it too narrow, once someone reads your IA they must feel that you’ve explored the topic through various mathematical techniques, and what will you derive though? the speed of movement or the rate of change in the movement? Also consider whether you’ll do it in the 3D analysis or 2D analysis, because if you choose 3D analysis then for the derivation of multiple variables then you must learn at least partial differentiation.</p>
-<p>Honestly speaking,<strong>no one finishes their Math IA with what they had in their initial planning</strong>. I myself had to change my Math IA 6 different times in order to get what I want. </p>
-<p>Sure you may expand it, but you must fit everything into 12 (max 14) pages, excluding bibliography. So choose the best 3 ideas on your IA approach and narrow them down.</p>
-<p>Overall, I feel that your math IA is certainly not simple, but in fact, super crazy complicated (will surely take 3-4 weeks). You have a lot of learning and video analysis to do, and make sure you follow the Math SL/HL IA criteria’s to top up the grades. </p>
-<p>Enjoy :D</p>
-<h2 id="Reply"><a href="#Reply" class="headerlink" title="Reply"></a>Reply</h2><p>Oh, alright… I see I see…</p>
-<p>I should probably just start and build onto my initial research so I have at least something to work from. I think maybe I’m just too focused on getting the exact question rather than letting my research lead me on to better options.<br>Thank you so much for your response :)))</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/">Again, can you come up with more Maths SL IA ideas? (190925)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Maths SLExploration (IA） Ideas
+It’s crucial in the first two stages -the introduction/preparation stage, and the topic choice stage when students need to be guided to complete their IA.
+There are some
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/" data-id="ckf5j201o004sdxw2gxtl71d9" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg)" alt="Maths SL IA —— Can &#34;the movement of dogs&#34; be my IA report? (190929)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/29/IB-Maths-SL-IA-190929" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.527Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Maths/">Maths</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/">Maths SL IA —— What matters in your IA report? (190929)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Maths/">Maths</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.550Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Maths-SL"><a href="#Maths-SL" class="headerlink" title="Maths SL"></a>Maths SL</h3><h3 id="Exploration-IA"><a href="#Exploration-IA" class="headerlink" title="Exploration (IA)"></a>Exploration (IA)</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg"></p>
-<h2 id="You-don’t-need-to-make-your-IA-topic-very-complicated-and-innovative-in-order-to-achieve-a-good-grade-in-a-subject"><a href="#You-don’t-need-to-make-your-IA-topic-very-complicated-and-innovative-in-order-to-achieve-a-good-grade-in-a-subject" class="headerlink" title="You don’t need to make your IA topic very complicated and innovative in order to achieve a good grade in a subject"></a>You don’t need to make your IA topic very complicated and innovative in order to achieve a good grade in a subject</h2><p>Quoted from reddit “PSA: you don’t need to make your IA topic very complicated and innovative…”</p>
-<p>I was talking about IAs with some IB students not long ago, and this made me remember something that I wanted to tell to people on this sub for some time now, and something that I wish I could tell to myself and my classmates 1 year ago. Basically, it’s the title: <strong>you don’t absolutely have to choose some kind of super interesting and complex topic for your IA if you are aiming for a good grade</strong>.</p>
-<p>At around the same time one year ago, I was stressing out about my chemistry, biology and mathematics IAs, trying to find some original idea that would blow away the examiner and score me the top mark. A lot of things were happening at that point in time, both in life and in school, that made me feel extremely exhausted and stressed. In the end, I couldn’t be bothered anymore, and settled for something very simple and overdone in every subject. For my chemistry IA, I did a vitamin C titration (as the other 50% of my class), for my biology IA, I did an experiment about the effects of pH on yeast activity, and <strong>for my math IA, I modelled an infectious disease using the SIR model</strong>. If you have any experience with these subjects and if you have researched IA topics already, you probably know that these 3 topics are probably some of the most overdone topics in IB history. I thought that I was committing a grave mistake and had to give up my hope for those sweet 7s, but I couldn’t really do anything about my chosen topics anymore and had to go with it. In return, I made sure that <strong>I made my IAs as good as possible (religiously followed each criterium word by word, followed all the tips I could find on the internet, asked people here and on the discord for help if I was stuck, etc</strong>). And finally, I also tried my best to perform well in the exams. In the end, I managed to score 7s in both biology and chemistry HL, and was 1 mark away from a 7 in math SL. And mind you, I was not some kind of top student who scored 100/100 on exams. I performed maybe above average on the exams, and even then, my super basic and overdone IAs did not hinder me from achieving a good grade.</p>
-<p>I hope that this does not come out as bragging, because that’s not what I’m trying to achieve here. <strong>I just wanted to demonstrate that it’s okay to go for an easy IA topic, perform well in the exams, and still get good grades, without having to put yourself through hell to find this super-amazing-IA-idea-that-will-blow-everyone’s-mind-away</strong>. I saw a lot of classmates try to do that and stress themselves out a lot about their IA topic. Eventually, because they would choose an overly complicated topic, it would inevitably fail/they would come over a blunder that was hard to solve, and they had to start over again, which added on to their already stressful lives. <strong>Basically, there’s nothing wrong with choosing an easy and overdone topic</strong>. If you’re super passionate and interested in an idea, then go for it! But if your schedule is tight and you’re stressed out already, then know that it’s okay to settle for something nice and easy :) Just make sure to choose a topic that yields itself to the criteria easily, and to follow the criteria word by word - then you should not have any problem achieving a good grade!</p>
-<h2 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h2><p>Agree. <strong>What matters is your report. Having a detailed analysis of your data after processing and evaluating your hypothesis and research question insightfully</strong> (for bio: limitations and improvements, inherent weaknesses) is sufficient to perform well in these criteria. Having a concise background with relevant information related to your IA is what your markers look for.</p>
-<h2 id="Comments-1"><a href="#Comments-1" class="headerlink" title="Comments"></a>Comments</h2><p>Way too many people think criteria like personal engagement is based on how interesting/unique the topic of investigation is. This is untrue. <strong>Personal engagement is based on how you tailor your experiment and data collection methodology to accommodate whatever resources and equipment you have, and to answer your research question</strong>. In other words, explain why you performed the non-standard steps in your procedure, explain difficulties and modifications you made to allow the experiment to work, write as if you didn’t half-ass it (even if you did).</p>
-<h2 id="Comments-2"><a href="#Comments-2" class="headerlink" title="Comments"></a>Comments</h2><p>This is really encouraging. Thank you.</p>
-<h2 id="Comments-3"><a href="#Comments-3" class="headerlink" title="Comments"></a>Comments</h2><p>So does the same advice apply for EEs</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/">Maths SL IA —— Can &#34;the movement of dogs&#34; be my IA report? (190929)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Maths SLExploration (IA)
+Quoted from reddit “Is my maths ia (hl) topic too simple?”
+I really struggled to find a good IA question but the general idea is “the movement, motion of dogs”.I really strugg
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/" data-id="ckf5j201n004qdxw2856z2xo5" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg)" alt="Maths SL IA —— What matters in your IA report? (190929)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/23/IB-Chinese-SL- Bluest-eys-190923" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.523Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chinese/">Chinese</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/">IB Chinese SL (190923）——  AI Wrtoe aboiut &#34;The Bluest Eye&#34;</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Maths/">Maths</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.527Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chinese-SL"><a href="#Chinese-SL" class="headerlink" title="Chinese SL"></a>Chinese SL</h3><h3 id="The-Bluest-Eye-By-Toni-Morrison"><a href="#The-Bluest-Eye-By-Toni-Morrison" class="headerlink" title="The Bluest Eye By Toni Morrison"></a>The Bluest Eye By Toni Morrison</h3><p>Created by panel.ai-writer.com<br>Tranlated by google translator AI</p>
-<p><a target="_blank" rel="noopener" href="https://panel.ai-writer.com/aiw/workspacesite/space/5d83ac9b6dfa0f042059b9c3">https://panel.ai-writer.com/aiw/workspacesite/space/5d83ac9b6dfa0f042059b9c3</a></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569249079/%E8%AF%AD%E6%96%87%E7%AB%A0%E9%B1%BC_iuurla.jpg"></p>
-<p>(以下均由 机器写作创建）</p>
-<p>小说的主角之一佩科拉（Pecola）是一个年轻的黑人女孩，来自一个经济不稳定的家庭。 她在小说结尾处的疯狂是她唯一的机会，可以逃脱她无法美丽的世界，并获得从小说开始就渴望的蓝眼睛。 克劳迪娅·麦提尔（Claudia MacTeer）：讲述了大部分小说，也是一个年轻的黑人女孩。</p>
-<p>在第一章中，她从内部对白人的仇恨中摧毁了自己的白色洋娃娃.  相比之下，Pecola始终遵循她追求白色美容标准的愿望。<br>弗里达比她的妹妹和佩科拉（Pecola）更国际化?。<br>据说她在小说中为克劳迪娅（Claudia）和佩科拉（Pecola）辩护。</p>
-<p>他的动机令人困惑，似乎是爱与恨的结合。<br>在这次内部对话中，佩科拉说出自己对蓝眼睛的渴望已经实现，并相信周围人的行为改变更多是由于她的新眼睛，而不是强奸或行为越来越奇怪的消息。<br>克劳迪亚（Claudia）抱怨说，包括她自己在内的整个教会都将佩科拉（Pecola）用作替罪羊，以使自己看起来更漂亮，更快乐。</p>
-<p>他们不属于那些怀着宽厚的胸怀在小说中创作的妓女，他们致力于改善人们不幸，不育的生活，随便而谦卑地花钱供他们理解。<br>他们也不属于这种敏感的少女种族，他们被命运愚弄，被迫培养一种外部苦涩，以保护自己的春天免受进一步的冲击。快乐的人<br>他们以蔑视机械的方式虐待了访客：黑人，白人，波多黎各人，墨西哥人，犹太人，波兰人等等。</p>
-<p>最黑的眼睛专注于隐形和接受的效果，对她来说，在我不了解的水平上，以及莫里森无法预见的水平上，她都非常重要。<br>Pecola Breedlove的特定故事是一个为黑人写的故事，阐明了我们在一个不承认和热爱我们人类的社会中看到和爱自己的需要。<br>从她的首本小说到最新小说，从多产的文章，故事和她的随意写照，托尼·莫里森（Toni Morrison）都对这一事实成真，这比她或任何人在选择照明和形象化自己的生活时所能想象的要多。年轻的Pecola Breedlove。 </p>
-<p>我还要指出，莫里森像潘钦一样，想把这本小说介绍为可以吸收人类的媒介。<br>莫里森（Morrison）有同样的愿望让人们保持小说创作，这就是莫里森（Morrison）选择小说的原因之一。<br>莫里森的一个原因是，小说允许被压迫者的声音以他们原本不会的方式说话。</p>
-<p>最忧郁的眼睛受到了俄亥俄州教育委员会主席Debe Terhar的挑战。<br>当涉及到Pecola被父亲强奸时，Terhar遇到了一个特别的问题。<br>但是要成为一个来自俄亥俄州的女孩，她写道俄亥俄州出生在俄亥俄州的洛兰。 </p>
-<p>这集情节达到了高潮，回到了乔莉的成人场景中，在佩乔拉着另一只腿scratch腿之后，他强奸了佩科拉，这与乔莉在波琳相遇时遇到的相同动作。<br>稍后，Pecola将来到Soaphead询问他的蓝眼睛。<br>当他毒害他的狗鲍勃时，他实现了她的愿望。<br>尽管成年的克劳迪娅（Claudia）时光倒流地回顾了整个故事的叙述和事件的顺序，但右边和左边的边距都是合理的。 </p>
-<p>他诱使Pecola认为这是当他派出狗喂狗的事情发生时，上帝回答了她为蓝眼睛祈祷的信号。<br>他给她的东西当然是毒药。</p>
-<p>(感觉怎样？）</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/">Maths SL IA —— What matters in your IA report? (190929)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Maths SLExploration (IA)
+You don’t need to make your IA topic very complicated and innovative in order to achieve a good grade in a subjectQuoted from reddit “PSA: you don’t need to make your IA topic
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/" data-id="ckf5j2014003ydxw2gih5gage" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569249079/%E8%AF%AD%E6%96%87%E7%AB%A0%E9%B1%BC_iuurla.jpg)" alt="IB Chinese SL (190923）——  AI Wrtoe aboiut &#34;The Bluest Eye&#34;" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/23/IB-Chemistry-SL-Periodic-Table-190923" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.521Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/">IB Chemistry SL (190923）—— 元素周期表一些提法和注意点</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chinese/">Chinese</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.523Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Chemistry-SL"><a href="#Chemistry-SL" class="headerlink" title="Chemistry SL"></a>Chemistry SL</h3><h3 id="The-Periodic-Table"><a href="#The-Periodic-Table" class="headerlink" title="The Periodic Table"></a>The Periodic Table</h3><h3 id="Study-Tips"><a href="#Study-Tips" class="headerlink" title="Study Tips"></a>Study Tips</h3><p>Quote from The Periodic Table: its story and its significance (p. 10, p. 18):</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569250934/%E5%8C%96%E5%AD%A6%E7%AB%A0%E9%B1%BC.jpg"></p>
-<p><strong>Tips 1</strong> 少数元素用单一字母作为元素符号</p>
-<p>In the modern periodic table, a small minority of elements are represented by <strong>a single letter of the alphabet</strong>. These include hydrogen氢, carbon碳, oxygen氧, nitrogen氮, sulfur硫, and    fluorine氟, which appear as H, C, O, N, S, and F.</p>
-<p><strong>Tips 2</strong>大多数元素用两个字母作为元素符号</p>
-<p>Most elements are depicted by <strong>two letters, the first of which is a capital letter and the second a lowercase letter</strong>. This gives rise to such element symbols as Li, Be, Ne, Ca, and Sc,for lithium锂, beryllium铍, neon氖, calcium钙, and scandium钪, respectively.</p>
-<p><strong>Tips 3</strong>少数新发现的元素，在其发现者还没有公开确认的情况下，由三个字母表示</p>
-<p>For a brief period of time 曾有一个简短的时期, some heavy elements(重元素） were <strong>depicted by three letters</strong>, but many have now been given particular names, such as seaborgium for element 106. But the very recently discovered elements, such as 112, 114, and 116, whose official discoverers are still under discussion, continue to be depicted by three letters, namely, Uub, Uuq, and Uuh.</p>
-<p>在自然界中发现的铀由三种具有相对丰度 relative abundances的同位素组成</p>
-<p><strong>Tips 4</strong> 传统的元素周期表由行和列组成，通过每行每列都可以观察到一些趋势</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569249140/Chemistry/%E5%85%83%E7%B4%A0%E5%91%A8%E6%9C%9F%E8%A1%A8%E7%9A%84%E8%A1%8C%E5%92%8C%E5%88%97_jx5a7t.jpg"></p>
-<p>The conventional periodic table consists of rows and columns. Trends can be observed among the elements going across and down the table. Each horizontal row represents a single period of the table. </p>
-<p><strong>On crossing a period</strong>, one passes from metals such as potassium and calcium on the left, through transition metals such as iron, cobalt, and nickel, then through some semimetallic elements such as germanium, and on to some nonmetals such as arsenic, selenium, and bromine on the right side of the table.</p>
-<p>In general, <strong>there is a smooth gradation in chemical and physical properties as a period is crossed</strong>, but exceptions to this general rule abound and make the study of chemistry a fascinating and unpredictably complex fi ld.</p>
-<p><strong>Tips 5</strong> 在元素周期表中可以看到，随着原子序数的增加，化学元素在性质上表现出近似的重复性</p>
-<p>The periodic law states that after certain regular but varying intervals the chemical elements show an approximate repetition in their properties. For example, fluorine氟, chlorine氯, and bromine溴, share the property of forming white crystalline salts 白色晶体盐 of general formula NaX with the metal sodium钠. </p>
-<p>**This periodic repetition of properties is the essential fact that underlies all aspects<br>of the periodic system.**（元素性质的周期性重复 是元素周期律所有规律的本质）</p>
-<p>Among the elements, however, not only does the period length vary, but also the periodicity is not exact. The elements within any column of the periodic table are not exact recurrences of each other. In this respect, their periodicity is not unlike the musical scale, in which one returns to a note denoted by the same letter, which sounds like the original note but is defi nitely not identical to it, being an octave higher. （周期性像音阶，有周期性，但也不是完全重复，像是音阶升高是，音符重复出现，发音相似，写法重复，但高了八度）。</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/23/IB-Chinese-SL-%20Bluest-eys-190923/">IB Chinese SL (190923）——  AI Wrtoe aboiut &#34;The Bluest Eye&#34;</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chinese SLThe Bluest Eye By Toni MorrisonCreated by panel.ai-writer.comTranlated by google translator AI
+https://panel.ai-writer.com/aiw/workspacesite/space/5d83ac9b6dfa0f042059b9c3
+
+(以下均由 机器写作创建）
+小说的
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/" data-id="ckf5j2014003wdxw21g4o1hd7" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569250934/%E5%8C%96%E5%AD%A6%E7%AB%A0%E9%B1%BC.jpg)" alt="IB Chemistry SL (190923）—— 元素周期表一些提法和注意点" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/24/IB-Admission-Essay-190924" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/24/IB-Admission-Essay-190924/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.516Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Admission/">Admission</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/24/IB-Admission-Essay-190924/">Essay targeted for UC 的 好与坏辨识（1/6） (190924)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Chemistry/">Chemistry</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.521Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Admission"><a href="#Admission" class="headerlink" title="Admission"></a>Admission</h3><h3 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg"></p>
-<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339834/Admission/leadship_Case_1_aiu3zw.jpg"></p>
-<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339853/Admission/leadship_Case__1_2_xv6l4s.jpg"></p>
-<p><strong>缺点是</strong>，没有例子</p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/23/IB-Chemistry-SL-Periodic-Table-190923/">IB Chemistry SL (190923）—— 元素周期表一些提法和注意点</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            Chemistry SLThe Periodic TableStudy TipsQuote from The Periodic Table: its story and its significance (p. 10, p. 18):
+
+Tips 1 少数元素用单一字母作为元素符号
+In the modern periodic table, a small minority of elements
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/24/IB-Admission-Essay-190924/" data-id="ckf5j20170044dxw2ggi40byl" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2020/09/16/2019/09/24/IB-Admission-Essay-190924/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339852/%E5%8D%87%E5%AD%A6%E5%9B%BE%E7%89%87_tlb1mc.jpg)" alt="Essay targeted for UC 的 好与坏辨识（1/6） (190924)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/24/IB-Admission-Essay-190924/">0</span>
+    
+</span>
 
 
-  
-    <article id="post-2019/09/24/IB-Maths-SL-IA-190924" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/" class="article-date">
-  <time datetime="2020-09-16T15:13:22.513Z" itemprop="datePublished">2020-09-16</time>
+    
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Maths/">Maths</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/">Can you come up with more Maths SL IA ideas? (190924)</a>
-    </h1>
-  
-
-      </header>
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Admission/">Admission</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.516Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Maths-SL"><a href="#Maths-SL" class="headerlink" title="Maths SL"></a>Maths SL</h3><h3 id="Exploration-IA）-Ideas"><a href="#Exploration-IA）-Ideas" class="headerlink" title="Exploration (IA） Ideas"></a>Exploration (IA） Ideas</h3><h2 id="Can-you-come-up-with-more-Maths-SL-IA-ideas"><a href="#Can-you-come-up-with-more-Maths-SL-IA-ideas" class="headerlink" title="Can you come up with more Maths SL IA ideas?"></a>Can you come up with more Maths SL IA ideas?</h2><p>quoted from <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=q4WuzLx_oUU">https://www.youtube.com/watch?v=q4WuzLx_oUU</a></p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg"></p>
-<h2 id="Idea-1"><a href="#Idea-1" class="headerlink" title="Idea 1"></a>Idea 1</h2><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339850/maths_ia_1_o9g2oa.jpg"></p>
-<h2 id="Idea-2"><a href="#Idea-2" class="headerlink" title="Idea 2"></a>Idea 2</h2><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339838/maths_ia_2_ylakpp.jpg"></p>
-<h2 id="Idea-3"><a href="#Idea-3" class="headerlink" title="Idea 3"></a>Idea 3</h2><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339835/maths_ia_3_z3kqtz.jpg"></p>
-<h2 id="Idea-4"><a href="#Idea-4" class="headerlink" title="Idea 4"></a>Idea 4</h2><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339836/maths_ia_4_hnn8lm.jpg"></p>
-<h2 id="Idea-5"><a href="#Idea-5" class="headerlink" title="Idea 5"></a>Idea 5</h2><p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339889/maths_ia_5_obm2ga.jpg"></p>
-<p>**Tips **</p>
-<p><img src="https://res.cloudinary.com/dsabdynkh/image/upload/v1569339834/maths_ia_tip_1_qfwonx.jpg"></p>
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/24/IB-Admission-Essay-190924/">Essay targeted for UC 的 好与坏辨识（1/6） (190924)</a>
+        </h1>
+    
 
-      
+        <p class="article-excerpt">
+            AdmissionEssay
+原文
+评价
+缺点是，没有例子
+
+        </p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/" data-id="ckf5j201b0046dxw2bs4w0q53" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
 </article>
-
-
-  
-
-
-  <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/8/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/10/">Next &amp;raquo;</a>
-  </nav>
 
-</section>
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
         
-          <aside id="sidebar">
-  
+        <a href="/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/" class="thumbnail">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a></li></ul>
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1569339858/%E6%95%B0%E5%AD%A6%E7%AB%A0%E9%B1%BC_ipwzqc.jpg)" alt="Can you come up with more Maths SL IA ideas? (190924)" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://example.com/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/">0</span>
+    
+</span>
+
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Maths/">Maths</a>
+            </div>
+            <div class="date"><time datetime="2020-09-16T15:13:22.513Z" itemprop="datePublished">2020-09-16</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2020/09/16/2019/09/24/IB-Maths-SL-IA-190924/">Can you come up with more Maths SL IA ideas? (190924)</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            Maths SLExploration (IA） IdeasCan you come up with more Maths SL IA ideas?quoted from https://www.youtube.com/watch?v=q4WuzLx_oUU
+
+Idea 1
+Idea 2
+Idea 3
+Idea 4
+Idea 5
+**Tips **
+
+
+        </p>
     </div>
-  </div>
-
-
-  
+</article>
+    
+        </div>
     
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li></ul>
+
+    </div></section>
+
+
+    <nav id="page-nav">
+        <span class="pages">Page 9 of 10</span>
+        <a class="extend prev" rel="prev" href="/page/8/">&laquo;</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/10/">&raquo;</a>
+    </nav>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
     </div>
-  </div>
-
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+    <div class="widgets-container">
         
-          <li>
-            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/">IB Others —— SAT Policies for Popular Colleges(200916)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/">IB Admission —— IB score unexpected (200708)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/">IB Others —— May 2020 Awarding (200715)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/">IB Admission —— Justice for May 2020 IB Graduates (200709)</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+            
+                
 
-  
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1600267931/Others/SAT_policies_fuladu.png)" alt="IB Others —— SAT Policies for Popular Colleges(200916)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/" class="title">IB Others —— SAT Policies for Popular Colleges(200916)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:15:28.818Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594223509/Admission/IB_score_m1ok05.jpg)" alt="IB Admission —— IB score unexpected (200708)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/08/IB-Admission-ib_score_unexpected-200708/" class="title">IB Admission —— IB score unexpected (200708)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.858Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594828053/Others/2020_awarding_korejy.jpg)" alt="IB Others —— May 2020 Awarding (200715)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Others/">Others</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/15/IB-Others-May-2020-Awarding-200715/" class="title">IB Others —— May 2020 Awarding (200715)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.853Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594049585/Admission/ib_course_equivalence_v3ccya.jpg)" alt="IB Admission —— BU&#39;s ib_course_equivalence (200706)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/06/IB-Admission-ib_course_equivalence-200706/" class="title">IB Admission —— BU&#39;s ib_course_equivalence (200706)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.849Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://res.cloudinary.com/dsabdynkh/image/upload/v1594309755/Admission/Justice_for_May_2020_IB_Graduates_wju8gd.jpg)" alt="IB Admission —— Justice for May 2020 IB Graduates (200709)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Admission/">Admission</a></p>
+                            <p class="item-title"><a href="/2020/09/16/2020/07/09/IB-Admission-Justice-for-May-2020-IB-Graduates-200709/" class="title">IB Admission —— Justice for May 2020 IB Graduates (200709)</a></p>
+                            <p class="item-date"><time datetime="2020-09-16T15:13:22.845Z" itemprop="datePublished">2020-09-16</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Admission/">Admission</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Business/">Business</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chemistry/">Chemistry</a><span class="category-list-count">25</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Chinese/">Chinese</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">23</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Maths/">Maths</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Others/">Others</a><span class="category-list-count">10</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a><span class="archive-list-count">91</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2020 John Doe</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
 
-<script src="/js/script.js"></script>
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
 
 
 
+<!-- Custom Scripts -->
 
-  </div>
+<script src="/js/main.js"></script>
+
+
 </body>
 </html>
