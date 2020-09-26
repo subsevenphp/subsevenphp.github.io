@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2020/09/27/2020/09/26/IB-Admission-DHS-change-admission-period-structure-200926/</loc>
+    
+    <lastmod>2020-09-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2020/09/16/2020/09/16/IB-Others-SAT-policies-for-popular-colleges-200916/</loc>
     
     <lastmod>2020-09-16</lastmod>
@@ -93,14 +100,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2020/05/14/IB-Others-TOEFL-launches-exclusive-China-test-200514/</loc>
+    <loc>http://example.com/2020/09/16/2020/05/14/IB-Admission-2020-2021-Common-App-new-questions-200514/</loc>
     
     <lastmod>2020-05-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2020/05/14/IB-Admission-2020-2021-Common-App-new-questions-200514/</loc>
+    <loc>http://example.com/2020/09/16/2020/05/14/IB-Others-TOEFL-launches-exclusive-China-test-200514/</loc>
     
     <lastmod>2020-05-14</lastmod>
     
@@ -184,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2020/03/16/IB-Others-%20How-to-flatten-the-curve-of-Coronavirus-20200316/</loc>
+    <loc>http://example.com/2020/09/16/2020/03/16/IB-Others-%20World-Has-a-Plan-to-Fight-Coronavirus-20200316/</loc>
     
     <lastmod>2020-03-16</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2020/03/16/IB-Others-%20World-Has-a-Plan-to-Fight-Coronavirus-20200316/</loc>
+    <loc>http://example.com/2020/09/16/2020/03/16/IB-Others-%20How-to-flatten-the-curve-of-Coronavirus-20200316/</loc>
     
     <lastmod>2020-03-16</lastmod>
     
@@ -324,14 +331,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/11/IB-Maths-SL-%20Testing%20-%20change%20-191011/</loc>
+    <loc>http://example.com/2020/09/16/2019/10/11/IB-Chinese-SL-Test-Changes-20191011/</loc>
     
     <lastmod>2019-10-11</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/11/IB-Chinese-SL-Test-Changes-20191011/</loc>
+    <loc>http://example.com/2020/09/16/2019/10/11/IB-Maths-SL-%20Testing%20-%20change%20-191011/</loc>
     
     <lastmod>2019-10-11</lastmod>
     
@@ -352,6 +359,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/2020/09/16/2019/10/09/IB-Admission-Essay-191009/</loc>
+    
+    <lastmod>2019-10-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2020/09/16/2019/10/09/IB-Maths-SL-Summary-notes-191009/</loc>
     
     <lastmod>2019-10-09</lastmod>
@@ -359,9 +373,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/09/IB-Admission-Essay-191009/</loc>
+    <loc>http://example.com/2020/09/16/2019/10/08/IB-English-HL-Article-Recommended-191008-2/</loc>
     
-    <lastmod>2019-10-09</lastmod>
+    <lastmod>2019-10-08</lastmod>
     
   </url>
   
@@ -374,13 +388,6 @@
   
   <url>
     <loc>http://example.com/2020/09/16/2019/10/08/IB-English-HL-Article-Recommended-191008/</loc>
-    
-    <lastmod>2019-10-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/09/16/2019/10/08/IB-English-HL-Article-Recommended-191008-2/</loc>
     
     <lastmod>2019-10-08</lastmod>
     
@@ -408,13 +415,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/05/IB-Chemistry-SL-Periodic-Table-191005/</loc>
-    
-    <lastmod>2019-10-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://example.com/2020/09/16/2019/10/05/IB-English-HL-Article-Recommended-191005/</loc>
     
     <lastmod>2019-10-05</lastmod>
@@ -422,14 +422,21 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/04/IB-Chemistry-SL-Periodic-Table-191004/</loc>
+    <loc>http://example.com/2020/09/16/2019/10/05/IB-Chemistry-SL-Periodic-Table-191005/</loc>
+    
+    <lastmod>2019-10-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/09/16/2019/10/04/IB-Business-HL-Book-Recommended-191004/</loc>
     
     <lastmod>2019-10-04</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/10/04/IB-Business-HL-Book-Recommended-191004/</loc>
+    <loc>http://example.com/2020/09/16/2019/10/04/IB-Chemistry-SL-Periodic-Table-191004/</loc>
     
     <lastmod>2019-10-04</lastmod>
     
@@ -478,14 +485,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/</loc>
+    <loc>http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/</loc>
     
     <lastmod>2019-09-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-2-190929/</loc>
+    <loc>http://example.com/2020/09/16/2019/09/29/IB-Maths-SL-IA-190929/</loc>
     
     <lastmod>2019-09-29</lastmod>
     
@@ -506,14 +513,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/25/IB-Admission-Essay-190925/</loc>
+    <loc>http://example.com/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/</loc>
     
     <lastmod>2019-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/25/IB-Maths-SL-IA-190925/</loc>
+    <loc>http://example.com/2020/09/16/2019/09/25/IB-Admission-Essay-190925/</loc>
     
     <lastmod>2019-09-25</lastmod>
     
@@ -541,13 +548,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/</loc>
-    
-    <lastmod>2019-09-21</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://example.com/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921-2/</loc>
     
     <lastmod>2019-09-21</lastmod>
@@ -555,9 +555,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/</loc>
+    <loc>http://example.com/2020/09/16/2019/09/21/IB-Chemistry-SL-Periodic-Table-190921/</loc>
     
-    <lastmod>2019-09-20</lastmod>
+    <lastmod>2019-09-21</lastmod>
     
   </url>
   
@@ -570,6 +570,13 @@
   
   <url>
     <loc>http://example.com/2020/09/16/2019/09/20/IB-Chemistry-SL-Nuclear-Atom-190920-2/</loc>
+    
+    <lastmod>2019-09-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/09/16/2019/09/20/IB-Summer-School-Boston-University-190920/</loc>
     
     <lastmod>2019-09-20</lastmod>
     
@@ -641,7 +648,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -651,56 +658,56 @@
   
   <url>
     <loc>http://example.com/categories/Others/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Chemistry/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/English/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Business/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Admission/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Maths/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Chinese/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Biology/</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
