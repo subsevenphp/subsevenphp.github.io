@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>MarkDoSims</title>
+  <title>Be descriptive and ultra-specific.</title>
   
-  
+  <subtitle>Do what u love, love what u do.</subtitle>
   <link href="https://subsevenphp.github.io/atom.xml" rel="self"/>
   
   <link href="https://subsevenphp.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://subsevenphp.github.io/</id>
   
   <author>
-    <name>Mark Jaden</name>
+    <name>Anonymous</name>
     
   </author>
   
